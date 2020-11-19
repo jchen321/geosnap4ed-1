@@ -1,7 +1,10 @@
 # Urban Institute data
 split into three layers(?)
+
     - schools
+
     - school districts
+    
     - colleges
 
 ## School layer [api docs](https://educationdata.urban.org/documentation/schools.html)
