@@ -40,7 +40,9 @@ sources:
 # Issues
 1) python example request on urban institute school layer uses 
     ```from urllib import urlopen```
+    
     on my machine, urllib will import alone, but urlopen will not. calling urlopen as urllib
     returns attribute error. error continues after updating to latest version of
     urllib
+    
     FIX = In python3, urllib2 has been split into urllib.request and urllib.error
