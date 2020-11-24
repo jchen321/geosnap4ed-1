@@ -55,7 +55,7 @@ pinging the directory layer of school districts for 2019 returns no results, but
 
 ## Colleges layer [api docs](https://educationdata.urban.org/documentation/colleges.html)
 Sources:
-- Integrated Postsecondary Education Data System (IPEDS)
+- Integrated Postsecondary Education Data System (IPEDS)<br>
     *The Integrated Postsecondary Education Data System (IPEDS) is built from
     interrelated surveys conducted annually by the US Department of Education's
     National Center for Education Statistics. IPEDS features data on enrollment,
@@ -81,17 +81,17 @@ Sources:
     Program year charges<br>
 
 
-- College Scorecard
+- College Scorecard<br>
     *Maintained by the Department of Education, the College Scorecard contains data
     on costs, completion, financial aid, debt, repayment, and earnings for all
     degree-granting institutions.*
 
-- National Historical Geographic Information System
+- National Historical Geographic Information System<br>
     *Provided through IPUMS, the National Historical Geographic Information System
     contains population, housing, agriculture, and economic data for all census
     geographies from 1790 through the present.*
 
-- Federal Student Aid
+- Federal Student Aid<br>
     *The US Department of Education's Office of Federal Student Aid provides data
     about federal financial assistance programs, including student aid data (Title
     IV loans, grants, and campus-based programs), and financial responsibility
