@@ -123,7 +123,7 @@ from the
 
 > "The SEDA 3.0 achievement data is constructed using data from the EDFacts data system
 housed by the U.S. Department of Education (USEd), which collects aggregated test score data
-from each state’s standardized testing program as required by federal law." (pg 7)
+from each state’s standardized testing program as required by federal law." (pg 7)s
 
 > "(covariate data) included in the district, county, and metro covariates files come primarily from two sources. The
 first is the American Community Survey (ACS) detailed tables which we obtained from the
@@ -140,3 +140,5 @@ One advantage SEDA might have is the variety of geographic units/analysis
 [google scholar page for Sean F.
 Reardon](https://scholar.google.com/citations?hl=en&user=LKx7rDsAAAAJ&view_op=list_works&sortby=pubdate)
 
+bibtex > obsidian 
+make bibtex entry for Reardon
