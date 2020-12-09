@@ -1,0 +1,265 @@
+# Urban Institute: Topic : Colleges Data Source
+
+## Colleges Data Source
+- IPEDS
+    - Directory
+        - endpoint contains
+            - directory information for every institution in the IPEDS universe, includes 
+                - name
+                - address
+                - city
+                - state
+                - zip code
+                - various URL links to the 
+                    - institution's home page
+                    - admissions
+                    - financial aid offices
+                    - net price calculator 
+            - identifies institutions as currently active and institutions that particpate in Title IV federal financial aid programs for which IPEDS is mandatory 
+        - includes variables derived from Institutional Characteristics survey such as 
+            - control
+            - level of institution
+            - highest level
+            - highest degree offered
+            - Carnegie classification 
+    - Institutional Characteristics
+        - endpoint contains
+            - data
+                - program
+                - award level offerings
+                - control
+                - affiliation of institution 
+            - also contains information on 
+                 - special learning opportunities
+                - student services
+                - disability services
+                - tuiton plans
+                - athletic conference associations
+            - services and programs for service members and veterans are also included 
+    - Admissions - Applications, admissions, and enrollment 
+        - endpoint contains
+            - data
+                - by sex and full time-time/part-time status
+                    - applicants
+                    - admissions
+                - limited to undergraduate first-time, degrees- or certificate-seeking students
+    - Student Charges for Academic-Year Programs - Tuition and fees 
+        - endpoint contains
+            - data on   
+                - tuition 
+                - fees
+            - for institutions that offer primarily academic programs 
+    - Student Charges for Vocational Programs - Tuition and fees by CIP code 
+        - endpoint contains
+            - data on tuition fees for the largest programs at institutions that offer primarily occupational programs
+    - Enrollment - Full-time equivalent 
+        - endpoint contains
+            - data on instructional activity measured in total credit and/or contact hours delivered by institutions during a 12-month period
+            - credit hour and contact hour activity data are used to derive 12-month full-time equivalent (FTE) enrollments for both 
+                - undergraduate
+                - graduate levels 
+            - graduate levels
+                - do not include credit hours for doctoral professional practice students
+            - institutions can choose to accept the derived FTE or report their own FTE
+            - both reported and estimated/derived FTE are available in this data table for **2003 and later** 
+            - in addition
+                - reported FTE of doctoral professional practice students are also included
+                    - these data are only available at the undergraduate, graduate, and first professional level 
+    -  Fall Retention 
+        - endpoint contains 
+            - first-year retention rate data measures 
+            - the percentage of first-year students who persisted in or completed their educational program a yar later 
+                - provide for full-time and part-time students 
+    - Finance 
+        - endpoint contains
+            -  institutional finance data
+                - including
+                    - institutional revenue by source
+                    - scholarships
+                    - expenditures by functional and natural classifications
+                    - endowments
+                    - assests and liabilities
+                    - pensions
+    - Student-faculty ratio
+        - endpoint contains
+            - defined as total FTE students not in graduate or professional programs divided by total FTE instructional staff not teachin gin graduate or professional programs 
+            - all data on this file is applicable only to institutions with undergraduate stude
+    -  Student Financial Aid - Grants and net price
+        - endpoint contains
+            - data on 
+                - net price
+                - grant amounts
+                - total students receiving grant aid for
+                - first-time
+                - full-time degree seeking students receiving
+                    - Titlte IV aid 
+                    - or any grant aid
+    - Graduation Rates - 150 percent 
+        - endpoint contains
+            - the graduation rate status as of August 31,  
+                - at the end of the academic year
+                - for the cohort of full-time
+                - first-time degree-or certificate-seeking undergraduates
+                - by race and sex 
+        - data for four-year institutions include 
+            - the number of 
+                - bachelor's degree seeking students who enrolled six academic years earlier
+                - bachelor's degree-seeking students who completed any degree or certificate within 150 percent of normal time
+                - completed bachelor's degree within 100,125,150 percent on normal time
+            - bachelor's seeking a degree of certificate other than a bachelor's degree are also included for four-year institutions
+        - data for two-year institutions include
+            - the number of
+                - full-time
+                - first-time students who enrolled three academic years earlier
+                - students who completed any degree or certificate within 100 or 150 percent of normal time
+                - students who transferred out
+            - students who completed a degree or certificate within 100 percent of normal time is **not available** by race and sex 
+    - Outcome measues 
+        - endpoint contains
+            - award and enrollment data from degree-granting institutions on undergraduate cohorts that entered an institution eight academic years ago 
+            - 2 years of data currently available have **slightly different definitions** 
+            - for cohorts and information available
+                 - in 2015, there is information on four cohorts collected at 2 points in time
+                    - six academic years and eight academic years after entry 
+                    - four cohorts of degree- or certificate-seeking undergraduates are 
+                        - full-time, first-time entering
+                        - part-time, first-time entering
+                        - full-time, non-first-time entering
+                        - part-time, non-first-time-entering
+            - in 2016, there is information on eight cohorts collected at 3 points in time 
+                - four academic years
+                - six academic years
+                - eight academic years after entry 
+            - the eight cohorts are the four cohorts described for 2015 
+                - but for each
+                    - further disaggregate by Pell recipients and non-Pell recipients
+            - additionally
+                - in 2016, they collect more detailed information about the types of awards completed, such as
+                    - a certificate
+                    - Associate's degree
+                    - Bachelor's degree 
+            - cohort definitions between the two years change 
+                - in 2015, the complete rate at 6 and 88 years after entry as the denominator
+                - in 2016, one adjusted cohort is used as the denominator in all rates, regardless of years after entry 
+    - Completers
+        - endpoint contains
+            - the number of students who completed any degree of certificate by race and ethnicity and gender
+    - Awards - By 2-digit CIP code 
+        - endpoint contains
+            - the number of awards by 
+                -  type of program
+                - level of award (certificate or degree)
+                - first or second major
+                - by race and ethnicity and gender
+            - type of program is categorized according to the 
+                - 2-digit Classification of Instructional Programs (CIP)
+                    - a detailed coding system for postsecondary instructional programs which
+                        - groups the 6-digit CIPS into their families 
+            - there are some exceptions
+                - such as law and medical fields which
+                    - were reported as 6-digits by the Integrated Postsecondary Education Data System 
+            - IPEDS reported data at the 2-digit CIP level until 2001
+                - after that, the 6-digit CIP data were collapsed to the 2-digit
+    - Academic Library 
+        - endpoint contains
+            - information on the academic institution's electronic and phyiscal library
+                - collections
+                - expenditures
+                - services 
+            - data only available for degree-granting institutions
+            - expenditure data are available only for institutions with total expenditures above $100,000 
+- Scorecard
+    - Institutional Characteristics 
+        - endpoint contains
+            -  institutional characteristics for each college or university
+                - primarily including flags for minority-serving institutions
+            - to avoid duplication, we **exclude data** that College Scorecard sourced from IPEDS
+                - For these data, you can see the other Institutional Characteristics and Directory endpoints
+             - most of the information contained at this endpoint can be found in 2016 and aside from identification and year, only predominant degree awarded is available in other years 
+    - Student Characteristics - Student aid applicant characteristics
+        - endpoint contains
+            -  detailed data on student aid applicants in each insitution, including
+                - income level
+                - dependency status
+                - number of college students sent Free Application for Federal Student Aid (FAFSA) forms to
+                - other student demographics 
+            - these data are produced for rolling two-year pooled entry cohorts by the National Student Loan Data System
+                 - e.g.: the 1997 data represent information from two cohorts, assessment year 1996-97 and assessment year 1997-98 
+    - Earnings 
+        - endpoint contains
+            - information on earnings for former students, by their pooled entry cohort and institution
+                - this information is available 6,7,8,9,10 years after the pooled cohort entered college
+                    - but availability varies by cohort
+           - **for example**
+                - the assessment year (AY) 1996-97 and AY 1997-98 pooled cohort has earnings data available 6,7,8,9,10 years after entry 
+                    - but the AY 2001-02 and AY 2002-03 pooled cohort only has earnings data 10 years after entry and the AY 2003-04 and AY 2004-05 pooled cohort only has earnings data 8 years after entry 
+    - Default
+        - endpoint contains
+            - information on the default rates by cohort for two or three years after students entered repayment 
+            - two year default
+                - is available from 1996 to 2012
+            - three year default
+                - is available starting 2011
+             - the cohorts are those that entered repayment two or three years of measurement 
+             - **for example**
+                -  those who entered repayment between October 1, 2012 and September 30,2013 
+                    - (which we identify as cohort 2012, but corresponds with fiscal year 2013 have their three-year default rate measures as of September 30,2015)(year 2015)
+    - Repayment 
+        - endpoint contains
+            - detailed repayment data by
+                 - pooled cohort
+                 - institution
+            - these data are also available by subgroup, including dependency status 
+                - Pell recipiency
+                - first-generation status
+                - sex
+                - income level 
+            - these repayment rates are measured 
+                - one
+                - three
+                - five
+                - seven years after the cohort enters repayment 
+            - **for example**
+                - the one-year repayment rate for fiscal year (FY) 2008 and FY 2009 cohorts (cohort_year 2008) are measured in FY 2009 and FY 2010(year 2009), respectively
+- NHGIS
+    - Geographic Variables - 2010 Census Geographies 
+        - endpoint contains
+            - geographic variables corresponding to 2010 Census geographies for each school in the CCD directory 
+            - geographies are merged on by 
+                - latitude and longitude
+                    - when available
+                    - when unavailable
+                        - latitudes and longitudes were obtained from address information using Urban's geocoder 
+                            - geocoder uses StreetMap Premium from Esri to perform accurate offline geocoding 
+            - geocode accuracy variables indicate the degree of precision of this geocoding 
+                 - [additional information](https://developers.arcgis.com/rest/geocode/api-reference/geocoding-service-output.htm)
+            - geographies for older years of data or low-accuracy geocode matches
+                - should be used with caution
+            - link schools' geographic locations to the geographic boundaries of school districts
+- FSA
+    - Financial Responsiblity Composite Scores 
+        - endpoint contains
+            -  financial responsibility composites scores for 
+                - for-profit
+                - nonprofit institutions 
+            - these scores gauge an institution's financial health
+                - help the Department of Education assess an institution's financial responsibility compliance 
+            - scores are based on 
+                - a primary reserve ration
+                - an equity ratio
+                - a net income ratio 
+        - they are collected at the OPEID level
+            - but we report them at the UNITID level in order to facilitate merging with IPEDS data 
+    -  Title IV Aid - Grants 
+        - endpoint contains
+            - data on Title IV grant volume and total recipients by institution and year 
+                - collected by the Office of Federal Student Aid at the OPEID level
+                    - provided them at the unit ID level 
+            - where these differ,
+                - amounts have been allocated to each institution based on full-time equivalent students 
+            - to avoid double-counting,users should use the 
+                - _unitid variables
+                - _opeid variables 
+                    - are the original amounts
+            - will lead to double-counting unless only one record per OPEID year is kept  
+    
