@@ -1,4 +1,7 @@
 # Geosnap4ed
+
+## [Project planning notes](https://hackmd.io/CVR4gbd8TsW872VG23OxEA)
+
 This project will build on geosnap's neighborhood construction capabilities to
 include data from the Urban Institute and the Stanford Educational
 Data Archive (SEDA) to include additional educational data parameters in neighborhood
