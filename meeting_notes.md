@@ -1,4 +1,3 @@
-
 # 11/25 
 spopt to be consumed by geosnap/gates project
     describing bug with spank
@@ -37,3 +36,50 @@ resources for educators and students?
 
 # 12/2
 Monthly meeting with gates foundation - no meeting this week. 
+
+# 12/9
+## obsidian
+mdnotes
+betterbibtext
+zotfile
+
+more plugins for zotero for firefox - google scholar
+
+## gates
+meeting with adam
+ - gonna connect us to urban and stanford
+ - as well as harvard + gates locally
+ - int'l development program at gates - further work
+
+use adam as a resource in interfacing with datasets
+ - familiarity from prolonged use
+
+plans:
+ - exploratory notebooks for mashing datasets together
+ - push early and often
+ - don't worry about perfection in early stages
+
+SPopt
+ - moving code for maxP heuristic from spank into SPopt
+ - spatial optimization aspect important for gates work
+
+tobler sprint - bringing interpolation problems together from various pysal
+threads.
+
+this week: focus on NCES 
+ - attendance zones
+ - locales
+ - school districts
+
+relationship between school and neighborhood and vice versa
+ - real segregation at school vs counterfactual segregation given context of
+   neighborhood
+   - student outcomes as a function of spatial context (2 schools with similar
+     student body, but different purchasing power)
+    
+geographies
+ - attendance zones
+    differentiate between primary/secondary schools
+ - school districts
+ - locales
+
