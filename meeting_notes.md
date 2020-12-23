@@ -83,3 +83,14 @@ geographies
  - school districts
  - locales
 
+# 12/16
+
+Eli update:
+branding - cannot use logo without specific language
+Adam hitting networks for end-users
+    tuesday 5th (after 10am) or friday 8th (any time) for meeting
+    TNTP the new teacher project 
+performed some ESDA with education outcomes and unions with different
+geographies
+set up sprint time for next week
+reach out to IECC/nonprofits with natural synergy with the project. 
