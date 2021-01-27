@@ -1,0 +1,3172 @@
+## School Districts 
+- CCD
+    - Directory 
+        - **leaid**, string
+            - Local education agency identification number (NCES)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **year**, integer
+            - Academic year (fall semester)Years available: 1986–2018
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **lea_name**, string
+            - Local education agency name
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **fips**, integer
+            - Federal Information Processing Standards state code
+            - Special values
+                - 1—Alabama
+                - 2—Alaska
+                - 3—American Samoa
+                - 4—Arizona
+                - 5—Arkansas
+                - 6—California
+                - 7—Canal Zone
+                - 8—Colorado
+                - 9—Connecticut
+                - 10—Delaware
+                - 11—District of Columbia
+                - 12—Florida
+                - 13—Georgia
+                - 14—Guam
+                - 15—Hawaii
+                - 16—Idaho
+                - 17—Illinois
+                - 18—Indiana
+                - 19—Iowa
+                - 20—Kansas
+                - 21—Kentucky
+                - 22—Louisiana
+                - 23—Maine
+                - 24—Maryland
+                - 25—Massachusetts
+                - 26—Michigan
+                - 27—Minnesota
+                - 28—Mississippi
+                - 29—Missouri
+                - 30—Montana
+                - 31—Nebraska
+                - 32—Nevada
+                - 33—New Hampshire
+                - 34—New Jersey
+                - 35—New Mexico
+                - 36—New York
+                - 37—North Carolina
+                - 38—North Dakota
+                - 39—Ohio
+                - 40—Oklahoma
+                - 41—Oregon
+                - 42—Pennsylvania
+                - 43—Puerto Rico
+                - 44—Rhode Island
+                - 45—South Carolina
+                - 46—South Dakota
+                - 47—Tennessee
+                - 48—Texas
+                - 49—Utah
+                - 50—Vermont
+                - 51—Virginia
+                - 52—Virgin Islands of the US
+                - 53—Washington
+                - 54—West Virginia
+                - 55—Wisconsin
+                - 56—Wyoming
+                - 58—Department of Defense Dependent Schools (overseas)
+                - 59—Bureau of Indian Education
+                - 60—American Samoa
+                - 61—Department of Defense Dependent Schools (domestic)
+                - 63—Department of Defense Education Activity
+                - 64—Federated States of Micronesia
+                - 65—Mariana Islands waters (including Guam)
+                - 66—Guam
+                - 67—Johnston Atoll
+                - 68—Marshall Islands
+                - 69—Northern Mariana Islands
+                - 70—Palau
+                - 71—Midway Islands
+                - 72—Puerto Rico
+                - 74—US Minor Outlying Islands
+                - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                - 76—Navassa Island
+                - 78—Virgin Islands of the US
+                - 79—Wake Island
+                - 81—Baker Island
+                - 84—Howland Island
+                - 86—Jarvis Island
+                - 89—Kingman Reef
+                - 95—Palmyra Atoll
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **state_leaid**, string
+            - Local education agency identification number (state)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **street_mailing**, string
+            - Street of mailing address
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **city_mailing**, string
+            - City of mailing address
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **state_mailing**, string 
+            - State of mailing address
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **zip_mailing**, string
+            - Zip code of mailing address
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **zip4_mailing**, string
+            - 4-digit zip code of mailing address
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **street_location**, string
+            - Street of location
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **city_location**, string
+            - City of location
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **state_location**, string
+            - State of location
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **zip_location**, string
+            - Zip code of location
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **zip4_location**, string
+            - 4-digit zip code of location
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **phone**, string
+            - Telephone number
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **latitude**, float
+            - Latitude of institution
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **longitude**
+            - Longitude of institution
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **urban_centric_locale**, integer
+            - Degree of urbanization (urban-centric locale)
+            - Special values
+                - 1—Large city
+                - 2—Midsize city
+                - 3—Urban fringe of large city
+                - 4—Urban fringe of midsize city
+                - 5—Large town
+                - 6—Small town
+                - 7—Rural, outside CBSA
+                - 8—Rural, inside CBSA
+                - 9—Not assigned
+                - 11—City, large
+                - 12—City, midsize
+                - 13—City, small
+                - 21—Suburb, large
+                - 22—Suburb, midsize
+                - 23—Suburb, small
+                - 31—Town, fringe
+                - 32—Town, distant
+                - 33—Town, remote
+                - 41—Rural, fringe
+                - 42—Rural, distant
+                - 43—Rural, remote
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **cbsa**, integer
+            - Core-based statistical area
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **cbsa_type**, integer
+            - Core-based statistical area type: Metropolitan or micropolitan
+            - Special values
+                - 1—Metropolitan statistical area
+                - 2—Micropolitan statistical area
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **csa**, integer
+            - Combined statistical area
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **cmsa**, integer
+            - Consolidated metropolitan statistical area
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **necta**, integer
+            - New England city and town area
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **county_code**, integer
+            - County code
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **county_name**, string
+            - County name
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **congress_district_id**, integer
+            - State and 114th congressional district identification number
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **state_leg_district_lower**, string
+            - State legislative district—lower
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **state_leg_district_upper**, string
+            - State legislative district—upper
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **bureau_indian_education**, integer
+            - Bureau of Indian Education school
+            - Special values
+                - 0—No
+                - 1—Yes
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **supervisory_union_number**, string
+            - Supervisory union number
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **agency_type**, integer
+            - Agency type
+            - Special values
+                - 1—No change; operational
+                - 2—Closed
+                - 3—New
+                - 4—Added
+                - 5—Significant change in geographical boundaries or instructional responsibility
+                - 6—Temporarily closed
+                - 7—Future
+                - 8—Reopened
+                - -1—Missing/not reported
+        - **agency_level**, integer
+            - Agency level
+            - Special values
+                - 0—Prekindergarten
+                - 1—Primary
+                - 2—Middle
+                - 3—High
+                - 4—Other
+                - 5—Ungraded
+                - 6—Adult Education
+                - 7—Secondary
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **boundary_change_indicator**, integer
+            - Boundary change
+            - Special values
+                - 1—No change; operational
+                - 2—Closed
+                - 3—New
+                - 4—Added
+                - 5—Significant change in geographical boundaries or instructional responsibility
+                - 6—Temporarily closed
+                - 7—Future
+                - 8—Reopened
+                - -1—Missing/not reported
+        - **agency_charter_indicator**, integer
+            - Agency charter
+            - Special values
+                - 1—All charter schools
+                - 2—Some charter schools
+                - 3—No charter schools
+                - -2—Not applicable
+        - **lowest_grade_offered**, integer
+            - Lowest grade offered
+            - Special values
+                - -1—Pre-K
+                - 0—Kindergarten
+                - 1—1
+                - 2—2
+                - 3—3
+                - 4—4
+                - 5—5
+                - 6—6
+                - 7—7
+                - 8—8
+                - 9—9
+                - 10—10
+                - 11—11
+                - 12—12
+                - 13—13
+                - 14—Adult education
+                - 15—Ungraded
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **highest_grade_offered**, integer
+            - Highest grade offered
+            - Special values
+                - -1—Pre-K
+                - 0—Kindergarten
+                - 1—1
+                - 2—2
+                - 3—3
+                - 4—4
+                - 5—5
+                - 6—6
+                - 7—7
+                - 8—8
+                - 9—9
+                - 10—10
+                - 11—11
+                - 12—12
+                - 13—13
+                - 14—Adult education
+                - 15—Ungraded
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **number_of_schools**, integer
+            - Number of schools associated with this agency
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **enrollment**, integer
+            - Student enrollment
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **spec_ed_students**, integer
+            - Number of special education students
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **english_language_learners**, integer
+            - Number of English language learners
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **migrant_students**, integer
+            - Number of migrant students
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **teachers_prek_fte**, float
+            - Number of full-time equivalent prekindergarten teachers
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **teachers_kindergarten_fte**, float
+            - Number of full-time equivalent kindergarten teachers
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **teachers_elementary_fte**, float
+            - Number of full-time equivalent elementary school teachers
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **teachers_secondary_fte**, float
+            - Number of full-time equivalent secondary school teachers
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **teachers_ungraded_fte**, float
+            - Number of full-time equivalent ungraded teachers
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **teachers_total_fte**, float
+            - Total full-time equivalent teachers
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **instructional_aides_fte**, float
+            - Number of full-time equivalent instructional aides or paraprofessionals
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **coordinators_fte**, float
+            - Number of full-time equivalent instructional coordinators and supervisors
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **guidance_counselors_elem_fte**, float
+            - Number of full-time equivalent elementary school guidance counselors
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **guidance_counselors_sec_fte**, float
+            - Number of full-time equivalent secondary school guidance counselors
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **guidance_counselors_other_fte**, float
+            - Number of full-time equivalent other guidance counselors
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **guidance_counselor_total_fte**, float
+            - Total full-time equivalent guidance counselors
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **school_counselors_fte**, float
+            - Number of full-time school counselors
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **librarian_specialists_fte**, float
+            - Number of full-time equivalent librarians or media specialists
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **librarian_support_staff_fte**, float
+            - Number of full-time equivalent library or media support staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **lea_administrators_fte**, float
+            - Number of full-time equivalent local education agency administrators
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **lea_admin_support_staff_fte**, float
+            - Number of full-time equivalent local education agency administrative support staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **lead_staff_total_fte**, float
+            - Total full-time equivalent LEA staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **school_administrators_fte**, float
+            - Number of full-time equivalent school administrators
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **school_admin_support_staff_fte**, float
+            - Number of full-time equivalent school administrative support staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **school_staff_total_fte**, float
+            - Total full-time equivalent school staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **support_staff_students_fte**, float
+            - Number of full-time equivalent student support services staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **support_staff_other_fte**, float
+            - Number of full-time equivalent other support services staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **staff_total_fte**, float
+            - Total full-time equivalent staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **other_staff_fte**, float
+            - Number of other full-time equivalent staff
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+    - Enrollment 
+        - Enrollment-By grade
+            - **leaid**, string
+                - Local education agency identification number (NCES)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **year**, integer
+                - Academic year (fall semester)Years available: 1986–2018
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **fips**, integer
+                - Federal Information Processing Standards state code
+                - Special values
+                    - 1—Alabama
+                    - 2—Alaska
+                    - 3—American Samoa
+                    - 4—Arizona
+                    - 5—Arkansas
+                    - 6—California
+                    - 7—Canal Zone
+                    - 8—Colorado
+                    - 9—Connecticut
+                    - 10—Delaware
+                    - 11—District of Columbia
+                    - 12—Florida
+                    - 13—Georgia
+                    - 14—Guam
+                    - 15—Hawaii
+                    - 16—Idaho
+                    - 17—Illinois
+                    - 18—Indiana
+                    - 19—Iowa
+                    - 20—Kansas
+                    - 21—Kentucky
+                    - 22—Louisiana
+                    - 23—Maine
+                    - 24—Maryland
+                    - 25—Massachusetts
+                    - 26—Michigan
+                    - 27—Minnesota
+                    - 28—Mississippi
+                    - 29—Missouri
+                    - 30—Montana
+                    - 31—Nebraska
+                    - 32—Nevada
+                    - 33—New Hampshire
+                    - 34—New Jersey
+                    - 35—New Mexico
+                    - 36—New York
+                    - 37—North Carolina
+                    - 38—North Dakota
+                    - 39—Ohio
+                    - 40—Oklahoma
+                    - 41—Oregon
+                    - 42—Pennsylvania
+                    - 43—Puerto Rico
+                    - 44—Rhode Island
+                    - 45—South Carolina
+                    - 46—South Dakota
+                    - 47—Tennessee
+                    - 48—Texas
+                    - 49—Utah
+                    - 50—Vermont
+                    - 51—Virginia
+                    - 52—Virgin Islands of the US
+                    - 53—Washington
+                    - 54—West Virginia
+                    - 55—Wisconsin
+                    - 56—Wyoming
+                    - 58—Department of Defense Dependent Schools (overseas)
+                    - 59—Bureau of Indian Education
+                    - 60—American Samoa
+                    - 61—Department of Defense Dependent Schools (domestic)
+                    - 63—Department of Defense Education Activity
+                    - 64—Federated States of Micronesia
+                    - 65—Mariana Islands waters (including Guam)
+                    - 66—Guam
+                    - 67—Johnston Atoll
+                    - 68—Marshall Islands
+                    - 69—Northern Mariana Islands
+                    - 70—Palau
+                    - 71—Midway Islands
+                    - 72—Puerto Rico
+                    - 74—US Minor Outlying Islands
+                    - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                    - 76—Navassa Island
+                    - 78—Virgin Islands of the US
+                    - 79—Wake Island
+                    - 81—Baker Island
+                    - 84—Howland Island
+                    - 86—Jarvis Island
+                    - 89—Kingman Reef
+                    - 95—Palmyra Atoll
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **grade**, integer
+                - Grade
+                - Special values
+                    - -1—Pre-K
+                    - 0—Kindergarten
+                    - 1—1
+                    - 2—2
+                    - 3—3
+                    - 4—4
+                    - 5—5
+                    - 6—6
+                    - 7—7
+                    - 8—8
+                    - 9—9
+                    - 10—10
+                    - 11—11
+                    - 12—12
+                    - 13—13
+                    - 14—Adult education
+                    - 15—Ungraded
+                    - 99—Total
+                    - 999—Not specified
+            - **race**, integer
+                - Race and ethnicity 
+                - Special values
+                    - 1—White
+                    - 2—Black
+                    - 3—Hispanic
+                    - 4—Asian
+                    - 5—American Indian or Alaska Native
+                    - 6—Native Hawaiian or other Pacific Islander
+                    - 7—Two or more races
+                    - 8—Nonresident alien
+                    - 9—Unknown
+                    - 20—Other
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **sex**, integer
+                - Sex
+                - Special values
+                    - 1—Male
+                    - 2—Female
+                    - 9—Unknown
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **enrollment**, integer
+                - Student enrollment
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+        - Enrollment-By grade and race
+            - **leaid**, string
+                - Local education agency identification number (NCES)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **year**, integer
+                - Academic year (fall semester)Years available: 1986–2018
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **fips**, integer
+                - Federal Information Processing Standards state code
+                - Special values
+                    - 1—Alabama
+                    - 2—Alaska
+                    - 3—American Samoa
+                    - 4—Arizona
+                    - 5—Arkansas
+                    - 6—California
+                    - 7—Canal Zone
+                    - 8—Colorado
+                    - 9—Connecticut
+                    - 10—Delaware
+                    - 11—District of Columbia
+                    - 12—Florida
+                    - 13—Georgia
+                    - 14—Guam
+                    - 15—Hawaii
+                    - 16—Idaho
+                    - 17—Illinois
+                    - 18—Indiana
+                    - 19—Iowa
+                    - 20—Kansas
+                    - 21—Kentucky
+                    - 22—Louisiana
+                    - 23—Maine
+                    - 24—Maryland
+                    - 25—Massachusetts
+                    - 26—Michigan
+                    - 27—Minnesota
+                    - 28—Mississippi
+                    - 29—Missouri
+                    - 30—Montana
+                    - 31—Nebraska
+                    - 32—Nevada
+                    - 33—New Hampshire
+                    - 34—New Jersey
+                    - 35—New Mexico
+                    - 36—New York
+                    - 37—North Carolina
+                    - 38—North Dakota
+                    - 39—Ohio
+                    - 40—Oklahoma
+                    - 41—Oregon
+                    - 42—Pennsylvania
+                    - 43—Puerto Rico
+                    - 44—Rhode Island
+                    - 45—South Carolina
+                    - 46—South Dakota
+                    - 47—Tennessee
+                    - 48—Texas
+                    - 49—Utah
+                    - 50—Vermont
+                    - 51—Virginia
+                    - 52—Virgin Islands of the US
+                    - 53—Washington
+                    - 54—West Virginia
+                    - 55—Wisconsin
+                    - 56—Wyoming
+                    - 58—Department of Defense Dependent Schools (overseas)
+                    - 59—Bureau of Indian Education
+                    - 60—American Samoa
+                    - 61—Department of Defense Dependent Schools (domestic)
+                    - 63—Department of Defense Education Activity
+                    - 64—Federated States of Micronesia
+                    - 65—Mariana Islands waters (including Guam)
+                    - 66—Guam
+                    - 67—Johnston Atoll
+                    - 68—Marshall Islands
+                    - 69—Northern Mariana Islands
+                    - 70—Palau
+                    - 71—Midway Islands
+                    - 72—Puerto Rico
+                    - 74—US Minor Outlying Islands
+                    - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                    - 76—Navassa Island
+                    - 78—Virgin Islands of the US
+                    - 79—Wake Island
+                    - 81—Baker Island
+                    - 84—Howland Island
+                    - 86—Jarvis Island
+                    - 89—Kingman Reef
+                    - 95—Palmyra Atoll
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **grade**, integer
+                - Grade
+                - Special values
+                    - -1—Pre-K
+                    - 0—Kindergarten
+                    - 1—1
+                    - 2—2
+                    - 3—3
+                    - 4—4
+                    - 5—5
+                    - 6—6
+                    - 7—7
+                    - 8—8
+                    - 9—9
+                    - 10—10
+                    - 11—11
+                    - 12—12
+                    - 13—13
+                    - 14—Adult education
+                    - 15—Ungraded
+                    - 99—Total
+                    - 999—Not specified
+            - **race**, integer
+                - Race and ethnicity
+                - Special values
+                    - 1—White
+                    - 2—Black
+                    - 3—Hispanic
+                    - 4—Asian
+                    - 5—American Indian or Alaska Native
+                    - 6—Native Hawaiian or other Pacific Islander
+                    - 7—Two or more races
+                    - 8—Nonresident alien
+                    - 9—Unknown
+                    - 20—Other
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **sex**, integer
+                - Sex
+                - Special values
+                    - 1—Male
+                    - 2—Female
+                    - 9—Unknown
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **enrollment**, integer
+                - Student enrollment 
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+        - Enrollment-By grade and sex
+            - **leaid**, string
+                - Local education agency identification number (NCES)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **year**, integer 
+                - Academic year (fall semester)Years available: 1986–2018
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **fips**, integer
+                - Federal Information Processing Standards state code
+                - Special values
+                    - 1—Alabama
+                    - 2—Alaska
+                    - 3—American Samoa
+                    - 4—Arizona
+                    - 5—Arkansas
+                    - 6—California
+                    - 7—Canal Zone
+                    - 8—Colorado
+                    - 9—Connecticut
+                    - 10—Delaware
+                    - 11—District of Columbia
+                    - 12—Florida
+                    - 13—Georgia
+                    - 14—Guam
+                    - 15—Hawaii
+                    - 16—Idaho
+                    - 17—Illinois
+                    - 18—Indiana
+                    - 19—Iowa
+                    - 20—Kansas
+                    - 21—Kentucky
+                    - 22—Louisiana
+                    - 23—Maine
+                    - 24—Maryland
+                    - 25—Massachusetts
+                    - 26—Michigan
+                    - 27—Minnesota
+                    - 28—Mississippi
+                    - 29—Missouri
+                    - 30—Montana
+                    - 31—Nebraska
+                    - 32—Nevada
+                    - 33—New Hampshire
+                    - 34—New Jersey
+                    - 35—New Mexico
+                    - 36—New York
+                    - 37—North Carolina
+                    - 38—North Dakota
+                    - 39—Ohio
+                    - 40—Oklahoma
+                    - 41—Oregon
+                    - 42—Pennsylvania
+                    - 43—Puerto Rico
+                    - 44—Rhode Island
+                    - 45—South Carolina
+                    - 46—South Dakota
+                    - 47—Tennessee
+                    - 48—Texas
+                    - 49—Utah
+                    - 50—Vermont
+                    - 51—Virginia
+                    - 52—Virgin Islands of the US
+                    - 53—Washington
+                    - 54—West Virginia
+                    - 55—Wisconsin
+                    - 56—Wyoming
+                    - 58—Department of Defense Dependent Schools (overseas)
+                    - 59—Bureau of Indian Education
+                    - 60—American Samoa
+                    - 61—Department of Defense Dependent Schools (domestic)
+                    - 63—Department of Defense Education Activity
+                    - 64—Federated States of Micronesia
+                    - 65—Mariana Islands waters (including Guam)
+                    - 66—Guam
+                    - 67—Johnston Atoll
+                    - 68—Marshall Islands
+                    - 69—Northern Mariana Islands
+                    - 70—Palau
+                    - 71—Midway Islands
+                    - 72—Puerto Rico
+                    - 74—US Minor Outlying Islands
+                    - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                    - 76—Navassa Island
+                    - 78—Virgin Islands of the US
+                    - 79—Wake Island
+                    - 81—Baker Island
+                    - 84—Howland Island
+                    - 86—Jarvis Island
+                    - 89—Kingman Reef
+                    - 95—Palmyra Atoll
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **grade**, integer
+                - Grade
+                - Special values
+                    - -1—Pre-K
+                    - 0—Kindergarten
+                    - 1—1
+                    - 2—2
+                    - 3—3
+                    - 4—4
+                    - 5—5
+                    - 6—6
+                    - 7—7
+                    - 8—8
+                    - 9—9
+                    - 10—10
+                    - 11—11
+                    - 12—12
+                    - 13—13
+                    - 14—Adult education
+                    - 15—Ungraded
+                    - 99—Total
+                    - 999—Not specified
+            - **race**, integer
+                - Race and ethnicity
+                - Special values
+                    - 1—White
+                    - 2—Black
+                    - 3—Hispanic
+                    - 4—Asian
+                    - 5—American Indian or Alaska Native
+                    - 6—Native Hawaiian or other Pacific Islander
+                    - 7—Two or more races
+                    - 8—Nonresident alien
+                    - 9—Unknown
+                    - 20—Other
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **sex**, integer
+                - Sex
+                - Special values
+                    - 1—Male
+                    - 2—Female
+                    - 9—Unknown
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **enrollment**, integer
+                - Student enrollment 
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+        - Enrollment-By grade,sex, and race 
+            - **leaid**, string
+                - Local education agency identification number (NCES)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **year**, integer
+                - Academic year (fall semester)Years available: 1986–2018
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **fips**, integer
+                - Federal Information Processing Standards state code
+                - Special values
+                    - 1—Alabama
+                    - 2—Alaska
+                    - 3—American Samoa
+                    - 4—Arizona
+                    - 5—Arkansas
+                    - 6—California
+                    - 7—Canal Zone
+                    - 8—Colorado
+                    - 9—Connecticut
+                    - 10—Delaware
+                    - 11—District of Columbia
+                    - 12—Florida
+                    - 13—Georgia
+                    - 14—Guam
+                    - 15—Hawaii
+                    - 16—Idaho
+                    - 17—Illinois
+                    - 18—Indiana
+                    - 19—Iowa
+                    - 20—Kansas
+                    - 21—Kentucky
+                    - 22—Louisiana
+                    - 23—Maine
+                    - 24—Maryland
+                    - 25—Massachusetts
+                    - 26—Michigan
+                    - 27—Minnesota
+                    - 28—Mississippi
+                    - 29—Missouri
+                    - 30—Montana
+                    - 31—Nebraska
+                    - 32—Nevada
+                    - 33—New Hampshire
+                    - 34—New Jersey
+                    - 35—New Mexico
+                    - 36—New York
+                    - 37—North Carolina
+                    - 38—North Dakota
+                    - 39—Ohio
+                    - 40—Oklahoma
+                    - 41—Oregon
+                    - 42—Pennsylvania
+                    - 43—Puerto Rico
+                    - 44—Rhode Island
+                    - 45—South Carolina
+                    - 46—South Dakota
+                    - 47—Tennessee
+                    - 48—Texas
+                    - 49—Utah
+                    - 50—Vermont
+                    - 51—Virginia
+                    - 52—Virgin Islands of the US
+                    - 53—Washington
+                    - 54—West Virginia
+                    - 55—Wisconsin
+                    - 56—Wyoming
+                    - 58—Department of Defense Dependent Schools (overseas)
+                    - 59—Bureau of Indian Education
+                    - 60—American Samoa
+                    - 61—Department of Defense Dependent Schools (domestic)
+                    - 63—Department of Defense Education Activity
+                    - 64—Federated States of Micronesia
+                    - 65—Mariana Islands waters (including Guam)
+                    - 66—Guam
+                    - 67—Johnston Atoll
+                    - 68—Marshall Islands
+                    - 69—Northern Mariana Islands
+                    - 70—Palau
+                    - 71—Midway Islands
+                    - 72—Puerto Rico
+                    - 74—US Minor Outlying Islands
+                    - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                    - 76—Navassa Island
+                    - 78—Virgin Islands of the US
+                    - 79—Wake Island
+                    - 81—Baker Island
+                    - 84—Howland Island
+                    - 86—Jarvis Island
+                    - 89—Kingman Reef
+                    - 95—Palmyra Atoll
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **grade**, integer
+                - Grade
+                - Special values
+                    - -1—Pre-K
+                    - 0—Kindergarten
+                    - 1—1
+                    - 2—2
+                    - 3—3
+                    - 4—4
+                    - 5—5
+                    - 6—6
+                    - 7—7
+                    - 8—8
+                    - 9—9
+                    - 10—10
+                    - 11—11
+                    - 12—12
+                    - 13—13
+                    - 14—Adult education
+                    - 15—Ungraded
+                    - 99—Total
+                    - 999—Not specified
+            - **race**, integer
+                - Race and ethnicity
+                - Special values
+                    - 1—White
+                    - 2—Black
+                    - 3—Hispanic
+                    - 4—Asian
+                    - 5—American Indian or Alaska Native
+                    - 6—Native Hawaiian or other Pacific Islander
+                    - 7—Two or more races
+                    - 8—Nonresident alien
+                    - 9—Unknown
+                    - 20—Other
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **sex**, integer
+                - Sex
+                - Special values
+                    - 1—Male
+                    - 2—Female
+                    - 9—Unknown
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **enrollment**, integer
+                - Student enrollment 
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+    - Finance
+        - **year**, integer
+            - Academic year (fall semester)Years available: 1991, 1994–2016
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **leaid**, string
+             - Local education agency identification number (NCES)
+             - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **fips**, integer
+            - Federal Information Processing Standards state code
+            - Special values
+                - 1—Alabama
+                - 2—Alaska
+                - 3—American Samoa
+                - 4—Arizona
+                - 5—Arkansas
+                - 6—California
+                - 7—Canal Zone
+                - 8—Colorado
+                - 9—Connecticut
+                - 10—Delaware
+                - 11—District of Columbia
+                - 12—Florida
+                - 13—Georgia
+                - 14—Guam
+                - 15—Hawaii
+                - 16—Idaho
+                - 17—Illinois
+                - 18—Indiana
+                - 19—Iowa
+                - 20—Kansas
+                - 21—Kentucky
+                - 22—Louisiana
+                - 23—Maine
+                - 24—Maryland
+                - 25—Massachusetts
+                - 26—Michigan
+                - 27—Minnesota
+                - 28—Mississippi
+                - 29—Missouri
+                - 30—Montana
+                - 31—Nebraska
+                - 32—Nevada
+                - 33—New Hampshire
+                - 34—New Jersey
+                - 35—New Mexico
+                - 36—New York
+                - 37—North Carolina
+                - 38—North Dakota
+                - 39—Ohio
+                - 40—Oklahoma
+                - 41—Oregon
+                - 42—Pennsylvania
+                - 43—Puerto Rico
+                - 44—Rhode Island
+                - 45—South Carolina
+                - 46—South Dakota
+                - 47—Tennessee
+                - 48—Texas
+                - 49—Utah
+                - 50—Vermont
+                - 51—Virginia
+                - 52—Virgin Islands of the US
+                - 53—Washington
+                - 54—West Virginia
+                - 55—Wisconsin
+                - 56—Wyoming
+                - 58—Department of Defense Dependent Schools (overseas)
+                - 59—Bureau of Indian Education
+                - 60—American Samoa
+                - 61—Department of Defense Dependent Schools (domestic)
+                - 63—Department of Defense Education Activity
+                - 64—Federated States of Micronesia
+                - 65—Mariana Islands waters (including Guam)
+                - 66—Guam
+                - 67—Johnston Atoll
+                - 68—Marshall Islands
+                - 69—Northern Mariana Islands
+                - 70—Palau
+                - 71—Midway Islands
+                - 72—Puerto Rico
+                - 74—US Minor Outlying Islands
+                - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                - 76—Navassa Island
+                - 78—Virgin Islands of the US
+                - 79—Wake Island
+                - 81—Baker Island
+                - 84—Howland Island
+                - 86—Jarvis Island
+                - 89—Kingman Reef
+                - 95—Palmyra Atoll
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **censusid**, string
+            - US Census Bureau 14-digit government identification number
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_total**, float
+            - Total revenue
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_total**, float
+            - Total federal revenue
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_child_nutrition_act**, integer
+            - Federal revenue through the state for the Child Nutrition Act
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_state_title_i**, integer
+            - Federal revenue through the state for Title I
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_state_idea**, integer
+            - Federal revenue through the state for the Individuals with Disabilities Education Act
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_state_math_sci_teach**, integer
+            - Federal revenue through the state for math, science, and teacher quality
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_state_drug_free**, integer
+            - Federal revenue through the state for safe and drug-free schools
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_state_vocational**, integer
+            - Federal revenue through the state for vocational and tech education
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_state_bilingual_ed**, integer
+            - Federal revenue through the state for bilingual education
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_state_other**, integer
+            - Federal revenue through the state for other purposes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_direct_impact_aid**, integer
+            - Direct federal revenue for impact aid
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_direct_indian_ed**, integer
+            - Direct federal revenue for Indian Education
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_direct_other**, integer
+            - Direct federal revenue for other purposes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_arra**, integer
+            - Federal revenue from the American Recovery and Reinvestment Act
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_fed_nonspec**, integer  
+            - Federal revenue for nonspecified purposes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_total**, float
+            - Total state revenue
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_gen_formula_assist**, float
+            - State revenue from general formula assistance
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_special_ed**, integer
+            - State revenue for special education programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_transportation**, integer
+            - State revenue for transportation programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_staff_improve**, integer
+            - State revenue for staff improvement programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_compens_basic_ed**, integer
+            - State revenue for compensatory and basic skills programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_vocational_ed**, integer
+            - State revenue for vocational education programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_outlay_capital_debt**, integer
+            - State revenue for capital outlay and debt services programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_bilingual_ed**, integer
+            - State revenue for bilingual education
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_gifted_talented**, integer
+            - State revenue for gifted and talented programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_sch_lunch**, integer
+            - State revenue for school lunch programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_oth_prog**, float
+            - State revenue for other programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_employee_benefits**, integer
+            - State revenue, on behalf of the local education agency, for employee benefits
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_not_employee_benefits**, integer
+            - State revenue, on behalf of the local education agency, for other benefits than employee benefits
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_state_nonspec**, integer
+            - State revenue for nonspecified purposes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_total**, float
+            - Total local revenue
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_parent_govt**, float
+            - Local revenue from parent government contributions
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_prop_tax**, float
+            - Local revenue from property taxes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_sales_tax**, integer
+            - Local revenue from general sales taxes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_utility_tax**, integer
+            - Local revenue from public utility taxes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_income_tax**, integer
+            - Local revenue from individual and corporate income taxes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_other_tax**, integer
+            - Local revenue from all other taxes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_other_sch_systems**, integer
+            - Local revenue from other school systems
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_cities_counties**, integer
+            - Local revenue from cities and counties
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_tuition_fees**, integer
+            - Local revenue from tuition fees from pupils and parents
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_transportation_fees**, integer
+            - Local revenue from transportation fees from pupils and parents
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_sch_lunch**, integer
+            - Local revenue from school lunches
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_textbook_sales_rents**, integer
+            - Local revenue from textbook sales and rentals
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_dist_activ_receipts**, integer
+            - Local revenue from district activity receipts
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_students_fees_nonspec**, integer
+            - Local revenue from nonspecified student fees
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_oth_sales_serv**, integer
+            - Local revenue from other sales and services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_interest_earnings**, integer
+            - Local revenue from interest earnings
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_rents_royalties**, integer
+            - Local revenue from rents and royalties
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_property_sale**, integer
+            - Local revenue from property sales
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_fines_forfeits**, integer
+            - Local revenue from fines and forfeits
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_private_contrib**, integer
+            - Local revenue from private contributions
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_local_misc**, integer
+            - Local revenue from miscellaneous sources
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **rev_nces**, integer
+            - NCES local revenue, Census Bureau state revenue
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_total**, float
+            - Total expenditures
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_elsec_total**, float
+            - Total current expenditures for elementary and secondary education
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_state_local_funds**, float
+            - Current expenditures from state and local funds
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_federal_funds**, float
+            - Current expenditures from federal funds
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_instruction_total**, float
+            - Total current expenditures for instruction
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_supp_serve_total**, float
+            - Total current expenditures for support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_pupils**, integer
+            - Current expenditures for pupil support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_instruc_staff**, integer
+            - Current expenditures for instructional staff support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_general_admin**, integer
+            - Current expenditures for general administration support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_sch_admin**, integer
+            - Current expenditures for school administration support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_operation_plant**, integer
+            - Current expenditures for support services for operation and maintenance of plant
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_student_transport**, integer
+            - Current expenditures for student transportation support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_bco**, integer
+            - Current expenditures for business, central, and other support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_supp_serv_nonspec**, integer
+            - Current expenditures for support services for nonspecified purposes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_other**, integer
+            - Total current expenditures for other elementary or secondary
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_food_serv**, integer
+            - Current expenditures for food services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_enterprise**, integer
+            - Current expenditures for enterprise operations
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_other_elsec**, integer
+            - Current expenditures for other elementary or secondary school purposes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_nonelsec**, integer
+            - Total non-elementary or secondary school expenditures
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_nonelsec_community_serv**, integer
+            - Non-elementary or secondary school expenditures for community services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_nonelsec_adult_education**, integer
+            - Non-elementary or secondary school expenditures for adult education
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_nonelsec_other**, integer
+            - Non-elementary or secondary school expenditures for other purposes
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_current_arra**, integer
+            - Current expenditures for the American Recovery and Reinvestment Act
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_textbooks**, integer
+            - Expenditures on textbooks
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_utilities_energy**, float
+            - Expenditures for utilities and energy services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_tech_supplies_services**, float
+            - Expenditures for technology-related supplies and purchased services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **exp_tech_equipment**, float
+            - Expenditures for technology-related equipment
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **outlay_capital_total**, float
+            - Total capital outlay expenditures
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **outlay_capital_construction**, float
+            - Capital outlay for construction
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **outlay_capital_land_structures**, integer
+            - Capital outlay for land and existing structures
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **outlay_capital_instruc_equip**, integer
+            - Capital outlay for instructional equipment
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **outlay_capital_other_equip**, integer
+            - Capital outlay for other equipment
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **outlay_capital_nonspec_equip**, integer
+            - Capital outlay for nonspecified equipment
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **outlay_capital_arra**, integer
+            - Capital outlay for the American Recovery and Reinvestment Act
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **payments_private_schools**, integer
+            - Payments to private schools
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **payment_charter_schools**, integer
+            - Payments to charter schools
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **payments_state_govt**, integer
+            - Payments to state governments
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **payments_local_govt**, integer
+            - Payments to local governments
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **payments_other_sch_systems**, integer
+            - Payments to other school systems
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_total**, float
+            - Total salary amount
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_instruction**, float
+            - Salaries for instruction
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_teachers_regular_prog**, float
+            - Teacher salaries for regular education programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_teachers_sped**, float
+            - Teacher salaries for special education programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_teachers_vocational**, integer
+            - Teacher salaries for vocational education programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_teachers_other_ed**, integer
+            - Teacher salaries for other education programs
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_supp_pupils**, integer
+            - Salaries for pupil support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_supp_instruc_staff**, integer
+            - Salaries for instructional staff support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_supp_general_admin**, integer
+            - Salaries for general administration support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_supp_sch_admin**, integer
+            - Salaries for school administration support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_supp_operation_plant**, integer
+            - Salaries for support services for operation and maintenance of plant
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_supp_stud_transport**, integer
+            - Salaries for student transportation support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_supp_bco**, integer
+            - Salaries for business, central, and other support services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **salaries_food_service**, integer
+            - Salaries for food services
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_employee_total**, float
+            - Total employee benefits (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_employee_instruction**, float
+            - Employee benefits for instruction (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_supp_pupils**, float
+            - Employee benefits for pupil support services (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_supp_instruc_staff**, float
+            - Employee benefits for instructional staff support services (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_supp_general_admin**, float
+            - Employee benefits for general administration support services (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_supp_sch_admin**, float
+            - Employee benefits for school administration support services (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_supp_operation_plant**, float
+            - Employee benefits for support services for operation and maintenance of plant (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_supp_stud_transport**, float
+            - Employee benefits for student transportation support services (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_supp_bco**, integer
+            - Employee benefits for business, central, and other support services (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_food_service**, integer
+            - Employee benefits for food services (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **benefits_enterprise_operations**, integer
+            - Employee benefits for enterprise operations (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **debt_interest**, integer
+            - Interest on debt
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **debt_longterm_outstand_beg_FY**, float
+            - Long-term debt outstanding at beginning of fiscal year
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **debt_longterm_issued_FY**, float
+            - Long-term debt issued during fiscal year
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **debt_longterm_retired_FY**, integer
+            - Long-term debt retired during fiscal year
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **debt_longterm_outstand_end_FY**, float
+            - Long-term debt outstanding at end of fiscal year
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **debt_shortterm_outstand_beg_FY**, integer
+            - Short-term debt outstanding at end of fiscal year
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **debt_shortterm_outstand_end_FY**, float
+            - Short-term debt outstanding at beginning of fiscal year
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **assets_sinking_fund**, integer
+            - Assets in a sinking fund (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **assets_bond_fund**, float
+            - Assets in a bond fund (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **assets_other**, float
+            - Assets in other funds (dollars)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **enrollment_fall_responsible**, integer
+            - Number of students for which the reporting local education agency is financially responsible
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **enrollment_fall_school**, integer
+            - Number of students attending school within the reporting local education agency
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+- SAIPE
+    - Poverty Estimates
+        - **leaid**, string
+             - Local education agency identification number (NCES)
+             - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **year**, integer
+            - Academic year (fall semester)Years available: 1995, 1997, 1999–2018
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **fips**, integer
+            - Federal Information Processing Standards state code
+            - Special values
+                - 1—Alabama
+                - 2—Alaska
+                - 3—American Samoa
+                - 4—Arizona
+                - 5—Arkansas
+                - 6—California
+                - 7—Canal Zone
+                - 8—Colorado
+                - 9—Connecticut
+                - 10—Delaware
+                - 11—District of Columbia
+                - 12—Florida
+                - 13—Georgia
+                - 14—Guam
+                - 15—Hawaii
+                - 16—Idaho
+                - 17—Illinois
+                - 18—Indiana
+                - 19—Iowa
+                - 20—Kansas
+                - 21—Kentucky
+                - 22—Louisiana
+                - 23—Maine
+                - 24—Maryland
+                - 25—Massachusetts
+                - 26—Michigan
+                - 27—Minnesota
+                - 28—Mississippi
+                - 29—Missouri
+                - 30—Montana
+                - 31—Nebraska
+                - 32—Nevada
+                - 33—New Hampshire
+                - 34—New Jersey
+                - 35—New Mexico
+                - 36—New York
+                - 37—North Carolina
+                - 38—North Dakota
+                - 39—Ohio
+                - 40—Oklahoma
+                - 41—Oregon
+                - 42—Pennsylvania
+                - 43—Puerto Rico
+                - 44—Rhode Island
+                - 45—South Carolina
+                - 46—South Dakota
+                - 47—Tennessee
+                - 48—Texas
+                - 49—Utah
+                - 50—Vermont
+                - 51—Virginia
+                - 52—Virgin Islands of the US
+                - 53—Washington
+                - 54—West Virginia
+                - 55—Wisconsin
+                - 56—Wyoming
+                - 58—Department of Defense Dependent Schools (overseas)
+                - 59—Bureau of Indian Education
+                - 60—American Samoa
+                - 61—Department of Defense Dependent Schools (domestic)
+                - 63—Department of Defense Education Activity
+                - 64—Federated States of Micronesia
+                - 65—Mariana Islands waters (including Guam)
+                - 66—Guam
+                - 67—Johnston Atoll
+                - 68—Marshall Islands
+                - 69—Northern Mariana Islands
+                - 70—Palau
+                - 71—Midway Islands
+                - 72—Puerto Rico
+                - 74—US Minor Outlying Islands
+                - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                - 76—Navassa Island
+                - 78—Virgin Islands of the US
+                - 79—Wake Island
+                - 81—Baker Island
+                - 84—Howland Island
+                - 86—Jarvis Island
+                - 89—Kingman Reef
+                - 95—Palmyra Atoll
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **district_id**, string
+            - District identification numbers reported in the US Census Small Area Income and Poverty Estimates
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **est_population_total**, integer
+            - Estimated total population
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **district_name**,string
+            - District names reported in the US Census Small Area Income and Poverty Estimates
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **est_population_5_17**, integer
+            - Estimated total population ages 5–17
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **est_population_5_17_pct**,float
+            - Share of population that is school age (ages 5–17)
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **est_population_5_17_poverty**, integer
+            - Estimated population ages 5–17 in poverty
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+        - **est_population_5_17_poverty_pct**, float
+            - Share of school-age population (ages 5–17) in poverty
+            - Special values
+                - -1—Missing/not reported
+                - -2—Not applicable
+                - -3—Suppressed data
+- EDFACTS
+    - State Assesments
+        - State Assesments-By grade
+            - **leaid**, string
+                - Local education agency identification number (NCES)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **leaid_num**, integer
+                - Local education agency identification number (NCES) (numeric)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **year**,integer
+                - Academic year (fall semester)Years available: 2009–2017
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **lea_name**,string
+                - Local education agency name
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **fips**, integer
+                - Federal Information Processing Standards state code
+                - Special values
+                    - 1—Alabama
+                    - 2—Alaska
+                    - 3—American Samoa
+                    - 4—Arizona
+                    - 5—Arkansas
+                    - 6—California
+                    - 7—Canal Zone
+                    - 8—Colorado
+                    - 9—Connecticut
+                    - 10—Delaware
+                    - 11—District of Columbia
+                    - 12—Florida
+                    - 13—Georgia
+                    - 14—Guam
+                    - 15—Hawaii
+                    - 16—Idaho
+                    - 17—Illinois
+                    - 18—Indiana
+                    - 19—Iowa
+                    - 20—Kansas
+                    - 21—Kentucky
+                    - 22—Louisiana
+                    - 23—Maine
+                    - 24—Maryland
+                    - 25—Massachusetts
+                    - 26—Michigan
+                    - 27—Minnesota
+                    - 28—Mississippi
+                    - 29—Missouri
+                    - 30—Montana
+                    - 31—Nebraska
+                    - 32—Nevada
+                    - 33—New Hampshire
+                    - 34—New Jersey
+                    - 35—New Mexico
+                    - 36—New York
+                    - 37—North Carolina
+                    - 38—North Dakota
+                    - 39—Ohio
+                    - 40—Oklahoma
+                    - 41—Oregon
+                    - 42—Pennsylvania
+                    - 43—Puerto Rico
+                    - 44—Rhode Island
+                    - 45—South Carolina
+                    - 46—South Dakota
+                    - 47—Tennessee
+                    - 48—Texas
+                    - 49—Utah
+                    - 50—Vermont
+                    - 51—Virginia
+                    - 52—Virgin Islands of the US
+                    - 53—Washington
+                    - 54—West Virginia
+                    - 55—Wisconsin
+                    - 56—Wyoming
+                    - 58—Department of Defense Dependent Schools (overseas)
+                    - 59—Bureau of Indian Education
+                    - 60—American Samoa
+                    - 61—Department of Defense Dependent Schools (domestic)
+                    - 63—Department of Defense Education Activity
+                    - 64—Federated States of Micronesia
+                    - 65—Mariana Islands waters (including Guam)
+                    - 66—Guam
+                    - 67—Johnston Atoll
+                    - 68—Marshall Islands
+                    - 69—Northern Mariana Islands
+                    - 70—Palau
+                    - 71—Midway Islands
+                    - 72—Puerto Rico
+                    - 74—US Minor Outlying Islands
+                    - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                    - 76—Navassa Island
+                    - 78—Virgin Islands of the US
+                    - 79—Wake Island
+                    - 81—Baker Island
+                    - 84—Howland Island
+                    - 86—Jarvis Island
+                    - 89—Kingman Reef
+                    - 95—Palmyra Atoll
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **grade_edfacts**, integer
+                - Grade category (as reported in EDFacts)
+                - Special values
+                    - 3—3
+                    - 4—4
+                    - 5—5
+                    - 6—6
+                    - 7—7
+                    - 8—8
+                    - 9—Grades 9-12
+                    - 99—Total
+            - **race**, integer
+                - Race and ethnicity
+                - Special values
+                    - 1—White
+                    - 2—Black
+                    - 3—Hispanic
+                    - 4—Asian
+                    - 5—American Indian or Alaska Native
+                    - 6—Native Hawaiian or other Pacific Islander
+                    - 7—Two or more races
+                    - 8—Nonresident alien
+                    - 9—Unknown
+                    - 20—Other
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **sex**, integer
+                - Sex
+                - Special values
+                    - 1—Male
+                    - 2—Female
+                    - 9—Unknown
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **lep**, integer
+                - Students with limited English proficiency
+                - Special values
+                    - 1—Students who are limited English proficient
+                    - 99—All students
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **homeless**, integer
+                - Students who are homeless
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **migrant**, integer
+                - Students who are migrants
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **disability**, integer
+                - Students with disabilities
+                - Special values
+                    - 0—Students without disabilities
+                    - 1—Students with disabilities served under IDEA
+                    - 2—Students with disabilities served under Section 504
+                    - 3—Students not served under IDEA (includes students without disabilities and students served under Section 504)
+                    - 4—Students with disabilities (served under Section 504 and under IDEA)
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **econ_disadvantaged**, integer
+                - Students who are economically disadvantaged
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **foster_care**, integer
+                - Students who are in foster care
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **military_connected**, integer
+                - Students who are connected to the military
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **read_test_num_valid**, integer
+                - Number of students who completed a reading or language arts assessment and for whom a proficiency level was assigned
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_midpt**, float
+                - Midpoint of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_high**, integer
+                - High end of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_low**, integer
+                - Low end of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_num_valid**, integer
+                - Number of students who completed a mathematics assessment and for whom a proficiency level was assigned
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_midpt**, float
+                - Midpoint of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_high**, integer
+                - High end of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_low**, integer
+                - Low end of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+        - State Assesments-By grade and race 
+            - **leaid**, string
+                - Local education agency identification number (NCES)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **leaid_num**, integer
+                - Local education agency identification number (NCES) (numeric)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **year**, integer
+                - Academic year (fall semester)Years available: 2009–2017
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **lea_name**,string
+                - Local education agency name
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **fips**, integer
+                - Federal Information Processing Standards state code
+                - Special values
+                    - 1—Alabama
+                    - 2—Alaska
+                    - 3—American Samoa
+                    - 4—Arizona
+                    - 5—Arkansas
+                    - 6—California
+                    - 7—Canal Zone
+                    - 8—Colorado
+                    - 9—Connecticut
+                    - 10—Delaware
+                    - 11—District of Columbia
+                    - 12—Florida
+                    - 13—Georgia
+                    - 14—Guam
+                    - 15—Hawaii
+                    - 16—Idaho
+                    - 17—Illinois
+                    - 18—Indiana
+                    - 19—Iowa
+                    - 20—Kansas
+                    - 21—Kentucky
+                    - 22—Louisiana
+                    - 23—Maine
+                    - 24—Maryland
+                    - 25—Massachusetts
+                    - 26—Michigan
+                    - 27—Minnesota
+                    - 28—Mississippi
+                    - 29—Missouri
+                    - 30—Montana
+                    - 31—Nebraska
+                    - 32—Nevada
+                    - 33—New Hampshire
+                    - 34—New Jersey
+                    - 35—New Mexico
+                    - 36—New York
+                    - 37—North Carolina
+                    - 38—North Dakota
+                    - 39—Ohio
+                    - 40—Oklahoma
+                    - 41—Oregon
+                    - 42—Pennsylvania
+                    - 43—Puerto Rico
+                    - 44—Rhode Island
+                    - 45—South Carolina
+                    - 46—South Dakota
+                    - 47—Tennessee
+                    - 48—Texas
+                    - 49—Utah
+                    - 50—Vermont
+                    - 51—Virginia
+                    - 52—Virgin Islands of the US
+                    - 53—Washington
+                    - 54—West Virginia
+                    - 55—Wisconsin
+                    - 56—Wyoming
+                    - 58—Department of Defense Dependent Schools (overseas)
+                    - 59—Bureau of Indian Education
+                    - 60—American Samoa
+                    - 61—Department of Defense Dependent Schools (domestic)
+                    - 63—Department of Defense Education Activity
+                    - 64—Federated States of Micronesia
+                    - 65—Mariana Islands waters (including Guam)
+                    - 66—Guam
+                    - 67—Johnston Atoll
+                    - 68—Marshall Islands
+                    - 69—Northern Mariana Islands
+                    - 70—Palau
+                    - 71—Midway Islands
+                    - 72—Puerto Rico
+                    - 74—US Minor Outlying Islands
+                    - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                    - 76—Navassa Island
+                    - 78—Virgin Islands of the US
+                    - 79—Wake Island
+                    - 81—Baker Island
+                    - 84—Howland Island
+                    - 86—Jarvis Island
+                    - 89—Kingman Reef
+                    - 95—Palmyra Atoll
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **grade_edfacts**, integer
+                - Grade category (as reported in EDFacts)
+                - Special values
+                    - 3—3
+                    - 4—4
+                    - 5—5
+                    - 6—6
+                    - 7—7
+                    - 8—8
+                    - 9—Grades 9-12
+                    - 99—Total
+            - **race**, integer
+                - Race and ethnicity
+                - Special values
+                    - 1—White
+                    - 2—Black
+                    - 3—Hispanic
+                    - 4—Asian
+                    - 5—American Indian or Alaska Native
+                    - 6—Native Hawaiian or other Pacific Islander
+                    - 7—Two or more races
+                    - 8—Nonresident alien
+                    - 9—Unknown
+                    - 20—Other
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **sex**, integer
+                - Sex
+                - Special values
+                    - 1—Male
+                    - 2—Female
+                    - 9—Unknown
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **lep**, integer
+                - Students with limited English proficiency
+                - Special values
+                    - 1—Students who are limited English proficient
+                    - 99—All students
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **homeless**, integer
+                - Students who are homeless
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **migrant**, integer
+                - Students who are migrants
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **disability**, integer
+                - Students with disabilities
+                 - Special values
+                    - 0—Students without disabilities
+                    - 1—Students with disabilities served under IDEA
+                    - 2—Students with disabilities served under Section 504
+                    - 3—Students not served under IDEA (includes students without disabilities and students served under Section 504)
+                    - 4—Students with disabilities (served under Section 504 and under IDEA)
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **econ_disadvantaged**, integer
+                - Students who are economically disadvantaged
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **foster_care**, integer
+                - Students who are in foster care
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **military_connected**, integer
+                - Students who are connected to the military
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **read_test_num_valid**, integer
+                - Number of students who completed a reading or language arts assessment and for whom a proficiency level was assigned
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_midpt**, float
+                - Midpoint of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_high**, integer
+                - High end of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_low**, integer
+                - Low end of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_num_valid**, integer
+                - Number of students who completed a mathematics assessment and for whom a proficiency level was assigned
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_midpt**,float
+                - Midpoint of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_high**, integer
+                - High end of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_low**, integer
+                - Low end of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+        - State Assesments-By grade and sex
+            - **leaid**, string
+                - Local education agency identification number (NCES)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **leaid_num**, integer
+                - Local education agency identification number (NCES) (numeric)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **year**, integer
+                - Academic year (fall semester)Years available: 2009–2017
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **lea_name**,string
+                - Local education agency name
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **fips**, integer
+                - Federal Information Processing Standards state code
+                - Special values
+                    - 1—Alabama
+                    - 2—Alaska
+                    - 3—American Samoa
+                    - 4—Arizona
+                    - 5—Arkansas
+                    - 6—California
+                    - 7—Canal Zone
+                    - 8—Colorado
+                    - 9—Connecticut
+                    - 10—Delaware
+                    - 11—District of Columbia
+                    - 12—Florida
+                    - 13—Georgia
+                    - 14—Guam
+                    - 15—Hawaii
+                    - 16—Idaho
+                    - 17—Illinois
+                    - 18—Indiana
+                    - 19—Iowa
+                    - 20—Kansas
+                    - 21—Kentucky
+                    - 22—Louisiana
+                    - 23—Maine
+                    - 24—Maryland
+                    - 25—Massachusetts
+                    - 26—Michigan
+                    - 27—Minnesota
+                    - 28—Mississippi
+                    - 29—Missouri
+                    - 30—Montana
+                    - 31—Nebraska
+                    - 32—Nevada
+                    - 33—New Hampshire
+                    - 34—New Jersey
+                    - 35—New Mexico
+                    - 36—New York
+                    - 37—North Carolina
+                    - 38—North Dakota
+                    - 39—Ohio
+                    - 40—Oklahoma
+                    - 41—Oregon
+                    - 42—Pennsylvania
+                    - 43—Puerto Rico
+                    - 44—Rhode Island
+                    - 45—South Carolina
+                    - 46—South Dakota
+                    - 47—Tennessee
+                    - 48—Texas
+                    - 49—Utah
+                    - 50—Vermont
+                    - 51—Virginia
+                    - 52—Virgin Islands of the US
+                    - 53—Washington
+                    - 54—West Virginia
+                    - 55—Wisconsin
+                    - 56—Wyoming
+                    - 58—Department of Defense Dependent Schools (overseas)
+                    - 59—Bureau of Indian Education
+                    - 60—American Samoa
+                    - 61—Department of Defense Dependent Schools (domestic)
+                    - 63—Department of Defense Education Activity
+                    - 64—Federated States of Micronesia
+                    - 65—Mariana Islands waters (including Guam)
+                    - 66—Guam
+                    - 67—Johnston Atoll
+                    - 68—Marshall Islands
+                    - 69—Northern Mariana Islands
+                    - 70—Palau
+                    - 71—Midway Islands
+                    - 72—Puerto Rico
+                    - 74—US Minor Outlying Islands
+                    - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                    - 76—Navassa Island
+                    - 78—Virgin Islands of the US
+                    - 79—Wake Island
+                    - 81—Baker Island
+                    - 84—Howland Island
+                    - 86—Jarvis Island
+                    - 89—Kingman Reef
+                    - 95—Palmyra Atoll
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **grade_edfacts**, integer
+                - Grade category (as reported in EDFacts)
+                - Special values
+                    - 3—3
+                    - 4—4
+                    - 5—5
+                    - 6—6
+                    - 7—7
+                    - 8—8
+                    - 9—Grades 9-12
+                    - 99—Total
+            - **race**, integer
+                - Race and ethnicity
+                - Special values
+                    - 1—White
+                    - 2—Black
+                    - 3—Hispanic
+                    - 4—Asian
+                    - 5—American Indian or Alaska Native
+                    - 6—Native Hawaiian or other Pacific Islander
+                    - 7—Two or more races
+                    - 8—Nonresident alien
+                    - 9—Unknown
+                    - 20—Other
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **sex**, integer
+                - Sex
+                - Special values
+                    - 1—Male
+                    - 2—Female
+                    - 9—Unknown
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **lep**, integer
+                - Students with limited English proficiency
+                - Special values
+                    - 1—Students who are limited English proficient
+                    - 99—All students
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **homeless**, integer
+                - Students who are homeless
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **migrant**, integer
+                - Students who are migrants
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **disability**, integer
+                - Students with disabilities
+                 - Special values
+                    - 0—Students without disabilities
+                    - 1—Students with disabilities served under IDEA
+                    - 2—Students with disabilities served under Section 504
+                    - 3—Students not served under IDEA (includes students without disabilities and students served under Section 504)
+                    - 4—Students with disabilities (served under Section 504 and under IDEA)
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **econ_disadvantaged**, integer
+                - Students who are economically disadvantaged
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **foster_care**, integer
+                - Students who are in foster care
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **military_connected**, integer
+                - Students who are connected to the military
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **read_test_num_valid**, integer
+                - Number of students who completed a reading or language arts assessment and for whom a proficiency level was assigned
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_midpt**, float
+                - Midpoint of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_high**, integer
+                - High end of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_low**, integer
+                - Low end of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_num_valid**, integer
+                - Number of students who completed a mathematics assessment and for whom a proficiency level was assigned
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_midpt**,float
+                - Midpoint of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_high**, integer
+                - High end of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_low**, integer
+                - Low end of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+        - State Assesments-By grade and special populations
+            - **leaid**, string
+                - Local education agency identification number (NCES)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **leaid_num**, integer
+                - Local education agency identification number (NCES) (numeric)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **year**, integer
+                - Academic year (fall semester)Years available: 2009–2017
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **lea_name**,string
+                - Local education agency name
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **fips**, integer
+                - Federal Information Processing Standards state code
+                - Special values
+                    - 1—Alabama
+                    - 2—Alaska
+                    - 3—American Samoa
+                    - 4—Arizona
+                    - 5—Arkansas
+                    - 6—California
+                    - 7—Canal Zone
+                    - 8—Colorado
+                    - 9—Connecticut
+                    - 10—Delaware
+                    - 11—District of Columbia
+                    - 12—Florida
+                    - 13—Georgia
+                    - 14—Guam
+                    - 15—Hawaii
+                    - 16—Idaho
+                    - 17—Illinois
+                    - 18—Indiana
+                    - 19—Iowa
+                    - 20—Kansas
+                    - 21—Kentucky
+                    - 22—Louisiana
+                    - 23—Maine
+                    - 24—Maryland
+                    - 25—Massachusetts
+                    - 26—Michigan
+                    - 27—Minnesota
+                    - 28—Mississippi
+                    - 29—Missouri
+                    - 30—Montana
+                    - 31—Nebraska
+                    - 32—Nevada
+                    - 33—New Hampshire
+                    - 34—New Jersey
+                    - 35—New Mexico
+                    - 36—New York
+                    - 37—North Carolina
+                    - 38—North Dakota
+                    - 39—Ohio
+                    - 40—Oklahoma
+                    - 41—Oregon
+                    - 42—Pennsylvania
+                    - 43—Puerto Rico
+                    - 44—Rhode Island
+                    - 45—South Carolina
+                    - 46—South Dakota
+                    - 47—Tennessee
+                    - 48—Texas
+                    - 49—Utah
+                    - 50—Vermont
+                    - 51—Virginia
+                    - 52—Virgin Islands of the US
+                    - 53—Washington
+                    - 54—West Virginia
+                    - 55—Wisconsin
+                    - 56—Wyoming
+                    - 58—Department of Defense Dependent Schools (overseas)
+                    - 59—Bureau of Indian Education
+                    - 60—American Samoa
+                    - 61—Department of Defense Dependent Schools (domestic)
+                    - 63—Department of Defense Education Activity
+                    - 64—Federated States of Micronesia
+                    - 65—Mariana Islands waters (including Guam)
+                    - 66—Guam
+                    - 67—Johnston Atoll
+                    - 68—Marshall Islands
+                    - 69—Northern Mariana Islands
+                    - 70—Palau
+                    - 71—Midway Islands
+                    - 72—Puerto Rico
+                    - 74—US Minor Outlying Islands
+                    - 75—Atlantic coast from North Carolina to Florida, and the coasts of Puerto Rico and Virgin Islands
+                    - 76—Navassa Island
+                    - 78—Virgin Islands of the US
+                    - 79—Wake Island
+                    - 81—Baker Island
+                    - 84—Howland Island
+                    - 86—Jarvis Island
+                    - 89—Kingman Reef
+                    - 95—Palmyra Atoll
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **grade_edfacts**, integer
+                - Grade category (as reported in EDFacts)
+                - Special values
+                    - 3—3
+                    - 4—4
+                    - 5—5
+                    - 6—6
+                    - 7—7
+                    - 8—8
+                    - 9—Grades 9-12
+                    - 99—Total
+            - **race**, integer
+                - Race and ethnicity
+                - Special values
+                    - 1—White
+                    - 2—Black
+                    - 3—Hispanic
+                    - 4—Asian
+                    - 5—American Indian or Alaska Native
+                    - 6—Native Hawaiian or other Pacific Islander
+                    - 7—Two or more races
+                    - 8—Nonresident alien
+                    - 9—Unknown
+                    - 20—Other
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **sex**, integer
+                - Sex
+                - Special values
+                    - 1—Male
+                    - 2—Female
+                    - 9—Unknown
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **lep**, integer
+                - Students with limited English proficiency
+                - Special values
+                    - 1—Students who are limited English proficient
+                    - 99—All students
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **homeless**, integer
+                - Students who are homeless
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **migrant**, integer
+                - Students who are migrants
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **disability**, integer
+                - Students with disabilities
+                 - Special values
+                    - 0—Students without disabilities
+                    - 1—Students with disabilities served under IDEA
+                    - 2—Students with disabilities served under Section 504
+                    - 3—Students not served under IDEA (includes students without disabilities and students served under Section 504)
+                    - 4—Students with disabilities (served under Section 504 and under IDEA)
+                    - 99—Total
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **econ_disadvantaged**, integer
+                - Students who are economically disadvantaged
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **foster_care**, integer
+                - Students who are in foster care
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **military_connected**, integer
+                - Students who are connected to the military
+                - Special values
+                    - 1—Yes
+                    - 99—Total
+            - **read_test_num_valid**, integer
+                - Number of students who completed a reading or language arts assessment and for whom a proficiency level was assigned
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_midpt**, float
+                - Midpoint of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_high**, integer
+                - High end of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **read_test_pct_prof_low**, integer
+                - Low end of the range used to report the share of students scoring proficient on a reading or language arts assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_num_valid**, integer
+                - Number of students who completed a mathematics assessment and for whom a proficiency level was assigned
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_midpt**,float
+                - Midpoint of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_high**, integer
+                - High end of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+            - **math_test_pct_prof_low**, integer
+                - Low end of the range used to report the share of students scoring proficient on a mathematics assessment (0–100 scale)
+                - Special values
+                    - -1—Missing/not reported
+                    - -2—Not applicable
+                    - -3—Suppressed data
+
