@@ -1,0 +1,7 @@
+*.ipynb_checkpoints
+.gitignore
+references.bib
+data/edge_locale19_nces*
+data/SEDA_files
+data/nces_att_bound/
+SEDA4_docs/
