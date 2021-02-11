@@ -1,0 +1,146 @@
+# Urban Institute: Python Endpoints 
+
+## Example Response 
+
+
+## Schools 
+- CCD
+    - Directory 
+        - Endpoint 
+            - `/api/v1/schools/ccd/directory/{year}/`
+    - Enrollment 
+        - Endpoint 
+            - `/api/v1/schools/ccd/enrollment/{year}/{grade}/`
+- CRDC 
+    - Directory 
+        - Endpoint
+            - `/api/v1/schools/crdc/directory/{year}/`
+    - Enrollment
+        - Endpoint
+            - `/api/v1/schools/crdc/enrollment/{year}/race/sex/`
+    - Discipline 
+        - Endpoint 
+            - `/api/v1/schools/crdc/discipline/{year}/disability/sex/`
+    - Harassment or Bullying
+        - Endpoint
+            - `/api/v1/schools/crdc/harassment-or-bullying/{year}/allegations/`
+    - Chronic Absenteeism 
+        - Endpoint 
+            - `/api/v1/schools/crdc/chronic-absenteeism/{year}/race/sex/`
+    - Restraint and Seclusion
+        - Endpoint
+            - `/api/v1/schools/crdc/restraint-and-seclusion/{year}/instances/` 
+    - AP, IB, and GT Enrollment
+        - Endpoint
+            - `/api/v1/schools/crdc/ap-ib-enrollment/{year}/race/sex/`
+    - AP Exams
+        - Endpoint 
+            - `/api/v1/schools/crdc/ap-exams/{year}/race/sex/`
+    - SAT and ACT participation
+        - Endpoint
+            - `/api/v1/schools/crdc/sat-act-participation/{year}/race/sex/`
+- EDFacts 
+    - State Assessment 
+        - Endpoint
+            - `/api/v1/schools/edfacts/assessments/{year}/{grade_edfacts}/` 
+- NHGIS
+    - Geographic Variables
+        - Endpoint
+            - `/api/v1/schools/nhgis/census-2010/{year}/`
+
+## School Districts 
+- CCD
+    - Directory 
+        - Endpoint
+            - `/api/v1/school-districts/ccd/directory/{year}/`
+    - Enrollment
+        - Endpoint
+            - `/api/v1/school-districts/ccd/enrollment/{year}/{grade}/` 
+    - Finance
+        - Endpoint
+            - `/api/v1/school-districts/ccd/finance/{year}/` 
+- SAIPE
+    - Poverty Estimates
+        - Endpoint 
+            - `/api/v1/school-districts/saipe/{year}/`
+- EDFacts
+    - State Assessments
+        - Enpoint
+            - `/api/v1/school-districts/edfacts/assessments/{year}/{grade_edfacts}/` 
+
+
+## Colleges 
+- IPEDS
+    - Directory
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/directory/{year}/`
+    - Institutional Characteristics
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/institutional-characteristics/{year}/`
+    - Admissions
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/admissions-enrollment/{year}/`
+    - Student Charges for Academic-Year Programs 
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/academic-year-tuition/{year}/`
+    - Student Charges for Vocational Programs
+        - Endpoint 
+            - /api/v1/college-university/ipeds/program-year-tuition-cip/{year}/`
+    - Enrollment - Full-time equivalent 
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/enrollment-full-time-equivalent/{year}/{level_of_study}/`
+    -  Fall Retention 
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/fall-retention/{year}/`
+    - Finance 
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/finance/{year}/`
+    - Student-faculty ratio
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/student-faculty-ratio/{year}/ `
+    -  Student Financial Aid - Grants and net price
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/sfa-grants-and-net-price/{year}/` 
+    - Graduation Rates
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/grad-rates/{year}/` 
+    - Outcome measues 
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/outcome-measures/{year}/`
+    - Completers
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/completers/{year}/` 
+    - Awards - By 2-digit CIP code 
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/completions-cip-2/{year}/`
+    - Academic Library 
+        - Endpoint 
+            - `/api/v1/college-university/ipeds/academic-libraries/{year}/` 
+- Scorecard
+    - Institutional Characteristics 
+        - Endpoint 
+            - `/api/v1/college-university/scorecard/institutional-characteristics/{year}/`
+    - Student Characteristics - Student aid applicant characteristics
+        - Endpoint 
+            - `/api/v1/college-university/scorecard/student-characteristics/{year}/aid-applicants/` 
+    - Earnings 
+        - Endpoint 
+            - `/api/v1/college-university/scorecard/earnings/{year}/` 
+    - Default
+        - Endpoint 
+            - `/api/v1/college-university/scorecard/default/{year}/` 
+    - Repayment 
+        - Endpoint 
+            - `/api/v1/college-university/scorecard/repayment/{year}/` 
+- NHGIS
+    - Geographic Variables - 2010 Census Geographies 
+        - Endpoint 
+            - `/api/v1/college-university/nhgis/census-2010/{year}/`
+- FSA
+    - Financial Responsiblity Composite Scores 
+        - Endpoint 
+            - `/api/v1/college-university/fsa/financial-responsibility/{year}/`
+    -  Title IV Aid - Grants 
+        - Endpoint 
+            - `/api/v1/college-university/fsa/grants/{year}/`
+    
