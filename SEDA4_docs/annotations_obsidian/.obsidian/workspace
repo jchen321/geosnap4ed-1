@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "abc867e91dda9bfb",
+    "type": "split",
+    "children": [
+      {
+        "id": "a443e35763c59dac",
+        "type": "split",
+        "dimension": 50.10817827780182,
+        "children": [
+          {
+            "id": "b5f8e2e1e960d349",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEDA 4.0 Extracted Annotations (2021-02-11).md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "c263efa23c924fde",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "SEDA 4.0 Extracted Annotations (2021-02-11).md",
+                "options": {
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.000000000000001
+                }
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "a8bed2c6e76228a2",
+        "type": "leaf",
+        "dimension": 49.89182172219818,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1_What is SEDA.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "70dc45ed82cba46b",
+    "type": "split",
+    "children": [
+      {
+        "id": "94c4352766d47b51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb19b6714757009f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c76a33e7a2912957",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 189
+  },
+  "right": {
+    "id": "358ba52bb6553589",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a1398a90cd54969",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "187a3ff55c1e0cf3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SEDA 4.0 Extracted Annotations (2021-02-11).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "SEDA 4.0 Extracted Annotations (2021-02-11).md",
+    "1_What is SEDA.md",
+    "4_Versioning and Publication.md",
+    "Detailed Construction Overview.md",
+    "Basic Construction Overview.md",
+    "3_Covariate Data Construction.md",
+    "2C_Basic Construction Overview.md",
+    "2_Achievement Data Construction.md",
+    "IA_Overview of Test Score Data Files.md",
+    "mansonstevenNationalHistoricalGeographic2019.md"
+  ]
+}
