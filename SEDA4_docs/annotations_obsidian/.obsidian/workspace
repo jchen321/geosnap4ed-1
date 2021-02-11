@@ -4,29 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a443e35763c59dac",
+        "id": "b87e5cecbddb4b33",
         "type": "split",
-        "dimension": 50.10817827780182,
+        "dimension": 30.944774075764492,
         "children": [
           {
-            "id": "b5f8e2e1e960d349",
+            "id": "fe48c68652f87525",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4_Versioning and Publication.md",
+                "file": "IICii_Detailed Construction Overview.md",
                 "mode": "source"
               }
             }
           },
           {
-            "id": "c263efa23c924fde",
+            "id": "c617092d324b6161",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "4_Versioning and Publication.md",
+                "file": "IICii_Detailed Construction Overview.md",
                 "options": {
                   "search": "",
                   "localJumps": 1,
@@ -44,7 +43,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.000000000000001
+                  "scale": 0.7132754626224438
                 }
               }
             }
@@ -55,11 +54,12 @@
       {
         "id": "a8bed2c6e76228a2",
         "type": "leaf",
-        "dimension": 49.89182172219818,
+        "dimension": 69.05522592423551,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1_What is SEDA.md",
+            "file": "IICii_Detailed Construction Overview.md",
             "mode": "source"
           }
         }
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 189
+    "width": 309
   },
   "right": {
     "id": "358ba52bb6553589",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4_Versioning and Publication.md",
+                "file": "IICii_Detailed Construction Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,15 +135,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "4_Versioning and Publication.md",
-    "SEDA 4.0 Extracted Annotations (2021-02-11).md",
-    "1_What is SEDA.md",
-    "Detailed Construction Overview.md",
-    "Basic Construction Overview.md",
-    "3_Covariate Data Construction.md",
-    "2C_Basic Construction Overview.md",
-    "2_Achievement Data Construction.md",
-    "IA_Overview of Test Score Data Files.md",
-    "mansonstevenNationalHistoricalGeographic2019.md"
+    "IICii_Detailed Construction Overview.md",
+    "III_Covariate Data Construction.md",
+    "II_Achievement Data Construction.md",
+    "I_What is SEDA.md",
+    "# Start Here.md",
+    "IICi_Basic Construction Overview.md",
+    "IIICii_Detailed Construction Overview.md",
+    "IIICi_Basic Construction Overview.md",
+    "IIB_Definitions.md",
+    "IIIC_Detailed Construction Overview.md"
   ]
 }
