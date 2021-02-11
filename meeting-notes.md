@@ -25,3 +25,9 @@ research engagement help program(?)
     number of meetings/amount of time invested
     - application process could make referrals to other center projects if they
     could be of use to the proposed projects.
+
+
+2/10
+- SEDA 4.0 drop, notes in progress
+- census availability chart still working
+- SPOPT new notebook narrative update > kick tires
