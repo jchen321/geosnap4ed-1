@@ -15,7 +15,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEDA 4.0 Extracted Annotations (2021-02-11).md",
+                "file": "4_Versioning and Publication.md",
                 "mode": "source"
               }
             }
@@ -26,7 +26,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SEDA 4.0 Extracted Annotations (2021-02-11).md",
+                "file": "4_Versioning and Publication.md",
                 "options": {
                   "search": "",
                   "localJumps": 1,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEDA 4.0 Extracted Annotations (2021-02-11).md",
+                "file": "4_Versioning and Publication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,9 +135,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "4_Versioning and Publication.md",
     "SEDA 4.0 Extracted Annotations (2021-02-11).md",
     "1_What is SEDA.md",
-    "4_Versioning and Publication.md",
     "Detailed Construction Overview.md",
     "Basic Construction Overview.md",
     "3_Covariate Data Construction.md",
