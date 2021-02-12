@@ -1,0 +1,124 @@
+# Urban Institute: Topic : Schools Data Source
+
+## Schools Data Source
+- CCD 
+    - Directory 
+        - endpoint contains 
+            - school-level information on
+                - location
+                - mailing addresses
+                - school types
+                - highest and lowest grades offered
+                - free and reduced-price lunch 
+                - school-level data on the number of full-time eqivalent teachers 
+    - Enrollment 
+        - endpoint contains
+            - student membership data for each school by grade
+            - only operational schools serving one or more grades are required to report membership and only these are included in this endpoint 
+- CRDC 
+    - Directory 
+        - endpoint contains
+            - school-level geographic information
+            - grades offered
+            - information on school type 
+                - including 
+                    - charter
+                    - magnet
+                    - alternative schools 
+    - Enrollment 
+        - endpoint contains
+            - student enrollment for each school by students' 
+                - race
+                - sex
+            - this includes only **K-12** 
+    - Discipline - By disability and sex 
+        - endpoint contains 
+            - student discipline information for each school, including
+                - suspensions
+                - explusions
+                - arrest
+                - referrals
+                - coporal punishment 
+            - by students' race and sex 
+    - Harassment or Bullying- Allegations 
+        - endpoint contains 
+            - the number of allegations of harassment or bullying on the basis of
+                - sex
+                - race
+                - color
+                - national origin
+                - disability
+            - this only includes students in grades K-12 and comparable ungraded levels 
+    - Chronic Absenteeism - By race and sex 
+        - endpoint contains
+            - the number of students who were chronically absent, by race and sex
+            - chronic absenteeism 
+                - defined as
+                    - being absent 15 or more school days during the school year 
+            - a student is absent if he or she is not physically on school grounds 
+                - is not participating in instruction or instruction-related activities at an approved off-grounds location for the school day
+            - chronically absent students include
+                - students who are absent for any reason
+                    - e.g.: illness, suspension, the need to care for a family member
+                - regardless of whether absences are excused or unexcused
+    - Restraint and Seclusion - Instances 
+        - endpoint contains
+            - the number of instances of 
+                - restraint
+                - seclusion
+                    - by student's disability status
+            - this includes only students in grades K-12 and comparable ungraded levels 
+    - AP, IB, GT Enrollment - By race and sex 
+        - endpoint contains
+            - the number of students enrolled in 
+                - Advanced Placement (AP) courses
+                - International Baccalaureate (IB) Diploma Programme
+                - gifted and talented (GT) programs
+            - by race and sex 
+    - AP Exams - By race and sex 
+        - endpoint contains
+            - the number of students **taking** AP exams
+            - the number of students **passing** AP exams 
+        - by race and sex 
+    - SAT and ACT participation 
+        - endpoint contains
+            - the number of students taking the SAT or ACT
+        - by race and sex 
+- EDFacts 
+    - State Assessment 
+        - endpoint contains
+            - school-level achievement results for state assessments in
+                - mathematics
+                - reading
+                - language arts
+                    - by grade 
+            - includes the number of students
+                - who completed each assessment for whom a proficiency level was assigned
+                - the proficiency share 
+        - proficiency share is reported as a range
+            - unless there are more than 300 students in the subgroup
+                - with the magnitude of the range decreasing as the number of students reported increases
+        - states can change their 
+            - statewide assessments
+            - academic standards
+            - thresholds 
+                - for proficiency levels, leading to changes in the proficiency share from year to year 
+        - example
+            - Virginia's 2016-17 grade 5-8 math assessment are too low
+                - Users should instead refer to Virginia Department of Education's Statistics and Reports 
+- NHGIS 
+    - Geographic Variables
+        - endpoint contains
+            - geographic variables corresponding to 2010 Census geographies for each school in the CCD directory 
+            - geographies are merged on by 
+                - latitude and longitude
+                    - when available
+                    - when unavailable
+                        - latitudes and longitudes were obtained from address information using Urban's geocoder 
+                            - geocoder uses StreetMap Premium from Esri to perform accurate offline geocoding 
+            - geocode accuracy variables indicate the degree of precision of this geocoding 
+                 - [additional information](https://developers.arcgis.com/rest/geocode/api-reference/geocoding-service-output.htm)
+            - geographies for older years of data or low-accuracy geocode matches
+                - should be used with caution
+            - link schools' geographic locations to the geographic boundaries of school districts
+
