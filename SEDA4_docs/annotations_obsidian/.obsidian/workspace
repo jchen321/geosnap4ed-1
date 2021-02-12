@@ -4,57 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "b87e5cecbddb4b33",
-        "type": "split",
-        "dimension": 30.944774075764492,
-        "children": [
-          {
-            "id": "fe48c68652f87525",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IICii_Detailed Construction Overview.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "c617092d324b6161",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "IICii_Detailed Construction Overview.md",
-                "options": {
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7132754626224438
-                }
-              }
-            }
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
         "id": "a8bed2c6e76228a2",
         "type": "leaf",
-        "dimension": 69.05522592423551,
         "active": true,
         "state": {
           "type": "markdown",
@@ -102,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 100,
+    "collapsed": true
   },
   "right": {
     "id": "358ba52bb6553589",
@@ -136,14 +88,14 @@
   },
   "lastOpenFiles": [
     "IICii_Detailed Construction Overview.md",
+    "IICi_Basic Construction Overview.md",
+    "IIB_Definitions.md",
     "III_Covariate Data Construction.md",
     "II_Achievement Data Construction.md",
     "I_What is SEDA.md",
     "# Start Here.md",
-    "IICi_Basic Construction Overview.md",
     "IIICii_Detailed Construction Overview.md",
     "IIICi_Basic Construction Overview.md",
-    "IIB_Definitions.md",
     "IIIC_Detailed Construction Overview.md"
   ]
 }
