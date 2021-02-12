@@ -23,10 +23,12 @@ include additional educational data parameters in neighborhood construction.
 Reardon](https://scholar.google.com/citations?hl=en&user=LKx7rDsAAAAJ&view_op=list_works&sortby=pubdate)
 
 # Directory descriptions
+
+
+data_markdown/SEDA4_docs/annotations_obsidian <-- annotated [SEDA4 Documentation](https://stacks.stanford.edu/file/druid:db586ns4974/seda_documentation_4.0.pdf) can opened as an obsidian vault.
+    
 census_reference_chart/ : per [issue 30](https://github.com/spatialucr/geosnap4ed/issues/30)<br>
 
-SEDA4_docs/annotations_obsidian <-- [SEDA4 Documentation](https://stacks.stanford.edu/file/druid:db586ns4974/seda_documentation_4.0.pdf) can opened as an obsidian vault.
-    
 # Issues 
 ## Outstanding
 
