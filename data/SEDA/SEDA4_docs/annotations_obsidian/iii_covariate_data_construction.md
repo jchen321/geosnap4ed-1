@@ -45,3 +45,5 @@
 > "Third, and finally, prior to imputation we replaced free and reduced-price lunch counts as missing if the count was equal to 0. Anomalies in the CCD data led some cases to be reported as zeros when they should have been missing so we preferred to delete these 0 values and impute them using other years of data from that school." ([Manson, Steven et al 2019:44](zotero://open-pdf/library/items/Q5HJYYT3?page=44))
 
 > "The structure of the data prior to imputation is wide - that is, there is one variable for each year for any given measure (i.e., total enrollment 1991, total enrollment 1992, total enrollment 1993, ..., total enrollment 2018) for all the measures described above. The exception are time invariant measures - urbanicity and state. We impute 6 datasets and use the average of the 6 imputed values for each school in each year. We then aggregate this imputed school by year data file to different geographic levels, computing our desired measures." ([Manson, Steven et al 2019:44](zotero://open-pdf/library/items/Q5HJYYT3?page=44))
+
+#original

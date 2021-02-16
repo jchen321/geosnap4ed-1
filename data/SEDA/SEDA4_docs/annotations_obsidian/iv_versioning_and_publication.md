@@ -13,3 +13,5 @@ SEDA 4.0 makes the following modifications to the procedures used in SEDA 3.0:
 	• New crosswalk that assigns schools to stable IDs and each higher aggregation (geographic district, county, metropolitan area, commuting zone, and state) 
 	• New estimation method for producing county, commuting zone, metropolitan area, and state estimates • Exclusion of special education schools from geographic district, county, metropolitan areas, commuting zone, or state estimates 
 	• Inclusion of BIE schools in geographic district, county, metropolitan areas, commuting zone, and state estimates.
+	
+#original

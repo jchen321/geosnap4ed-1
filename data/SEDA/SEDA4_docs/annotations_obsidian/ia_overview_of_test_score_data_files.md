@@ -8,10 +8,10 @@
  - metropolitan statistical areas
  - states 
  
- Test score data files contain information about the average academic achievement as measured by standardized test scores administered in 3rd through 8th grade in [Mathematics test scores](mathematics_(test_scores)) and [Reading Language Arts (RLA (test scores)](reading_language_arts_(rla)_test_scores) over the 2008-09 through 2017-18 school years.
+ Test score data files contain information about the average academic achievement as measured by standardized test scores administered in 3rd through 8th grade in [Mathematics test scores](mathematics_test_scores) and [Reading Language Arts (RLA (test scores)](reading_language_arts_rla_test_scores.md) over the 2008-09 through 2017-18 school years.
  
 ## School Files 
- There are two school-level test score data files, corresponding to the two different metrics in which the data are released: the [cohort standardized (CS)](cohort_standardized_(cs)) scale and the [grade cohort standardized (GCS)](grade_cohort_standardized_(gcs)) scale.
+ There are two school-level test score data files, corresponding to the two different metrics in which the data are released: the [cohort standardized (CS)](cohort_standardized_cs) scale and the [grade cohort standardized (GCS)](grade_cohort_standardized_gcs) scale.
  
  In each file there are variables corresponding to the average test score in the middle grade of the data, the average "learning rate" across grades (grade slope), the "trend" in the test scores across cohorts (cohort slope), and the difference between math and RLA test scores (math slope). Each measure is included along with its respective standard error. Estimates are reported for all students; no estimates are provided by demographic subgroup.
  
@@ -30,3 +30,5 @@ In the long files there are variables corresponding to test score means by subgr
 In the poolsub files, there are variables corresponding to the average test score mean in math and in RLA (averaged across grades and years), the average "learning rate" across grades in math and in RLA, and the average "trend" in the test scores across cohorts in math and in RLA, along with their standard errors. 
 
 In the pooled overall file, there are variables corresponding to the average test score mean (averaged across grades, years, and subjects), the average "learning rate" across grades, the average "trend" in the test scores across cohorts, and the average difference between math and RLA test scores, along with their standard errors. Estimates are reported for all students and by demographic subgroups.
+
+#original

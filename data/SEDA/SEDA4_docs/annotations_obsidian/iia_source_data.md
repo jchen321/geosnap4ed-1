@@ -9,3 +9,5 @@ To EDFacts, states report the number of students in each school, subgroup, subje
 
 ## No supression
 The raw EDFacts data used in SEDA include no suppressed cells, nor do they have a minimum cell size for reporting. Each row of data corresponds to a school-subgroup-subjectgrade-year cell.
+
+#original
