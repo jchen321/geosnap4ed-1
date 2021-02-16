@@ -1,0 +1,994 @@
+# SEDA Data Downloads Version 1.0 
+
+Data description 
+- This file contains **district level means in grade equivalent units**. 
+    - There are multiple observations per district; 
+        - **one for each year**
+        - **grade**
+        - **subject**
+    - **district level means in grade equivalent units**
+        - Observation 
+            - **year 2009 grade 03**
+                - variables
+                    - nces district id
+                    - education agency
+                    - fips state code
+                    - location state
+                    - spring of tested year 
+                    - grade
+                    - Estimated district mean in ela: grade equivalent (gs)
+                    - Estimated district SE in ela: grade equivalent std (gs)
+                    - Estimated district mean in math: grade equivalent std (gs)
+                    - Estimated District Mean SE in math: grade equivalent std (gs)
+            - **year 2009 grade 04**
+                - variables
+                    - nces district id
+                    - education agency
+                    - fips state code
+                    - location state
+                    - spring of tested year 
+                    - grade
+                    - Estimated district mean in ela: grade equivalent (gs)
+                    - Estimated district SE in ela: grade equivalent std (gs)
+                    - Estimated district mean in math: grade equivalent std (gs)
+                    - Estimated District Mean SE in math: grade equivalent std (gs)
+            - **year 2009 grade 05** 
+                - variables
+                    - nces district id
+                    - education agency
+                    - fips state code
+                    - location state
+                    - spring of tested year 
+                    - grade
+                    - Estimated district mean in ela: grade equivalent (gs)
+                    - Estimated district SE in ela: grade equivalent std (gs)
+                    - Estimated district mean in math: grade equivalent std (gs)
+                    - Estimated District Mean SE in math: grade equivalent std (gs)
+            - **year 2009 grade 06**
+                - variables
+                    - nces district id
+                    - education agency
+                    - fips state code
+                    - location state
+                    - spring of tested year 
+                    - grade
+                    - Estimated district mean in ela: grade equivalent (gs)
+                    - Estimated district SE in ela: grade equivalent std (gs)
+                    - Estimated district mean in math: grade equivalent std (gs)
+                    - Estimated District Mean SE in math: grade equivalent std (gs)
+            - **year 2009 grade 07**
+            - **year 2009 grade 08**
+            - **year 2010 grade 03**
+            - **year 2010 grade 04** 
+            - **year 2010 grade 05** 
+            - **year 2010 grade 06** 
+            - **year 2010 grade 07** 
+            - **year 2010 grade 08** 
+            - **year 2011 grade 03** 
+            - **year 2011 grade 04** 
+            - **year 2011 grade 05** 
+            - **year 2011 grade 06** 
+            - **year 2011 grade 07** 
+            - **year 2011 grade 08**
+            - **year 2012 grade 03** 
+            - **year 2012 grade 04** 
+            - **year 2012 grade 05** 
+            - **year 2012 grade 06** 
+            - **year 2012 grade 07** 
+            - **year 2012 grade 08**
+            - **year 2013 grade 03** 
+            - **year 2013 grade 04** 
+            - **year 2013 grade 05** 
+            - **year 2013 grade 06** 
+            - **year 2013 grade 07** 
+            - **year 2013 grade 08**
+- This file contains **district level means in grade equivalent units**. 
+    - There are multiple observations per district, one for each subject; values are averaged across 
+        - **years**
+        - **grades**
+    - **district level means in grade equivalent units**
+        - Observation 
+            - **pooled year and grade**
+                - A nces district id
+                - B education agency name
+                - C fips state code
+                - D location state
+                - E Pooled District Mean in math: grade equivalent std (gs)
+                - F grade slope in math: grade equivalent std (gs)
+                - G cohort slope in math: grade equivalent std (gs)
+                - H Pooled District Mean in ela: grade equivalent std (gs)
+                - I grade slope in ela: grade equivalent std (gs)
+                - J cohort slope in ela: grade equivalent std (gs)
+                - K Pooled District Mean SE in math: grade equivalent std (gs)
+                - L grade slope SE in math: grade equivalent std (gs)
+                - M cohort slope SE in math: grade equivalent std (gs)
+                - N Pooled District Mean SE in ela: grade equivalent std (gs)
+                - O grade slope SE in ela: grade equivalent std (gs)
+                - P cohort slope SE in ela: grade equivalent std (gs)
+- This file contains **district level means in grade equivalent units**. 
+    - There is one observations per district; values are averaged across
+        - **years**
+        - **grades**
+        - **subjects**
+    - **district level means in grade equivalent units**
+        - Observation 
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E average test score, math/ela pooled, in grade equiv
+            - F grade slope pooled: grade equivalent std (gs)
+            - G cohort slope pooled: grade equivalent std (gs)
+            - H subject slope pooled: grade equivalent std (gs)
+            - I se(mean_poolgs)
+            - J grade slope SE pooled: grade equivalent std (gs)
+            - K cohort slope SE pooled: grade equivalent std (gs)
+            - L subject slope SE pooled: grade equivalent std (gs)
+- This file contains **district level means in constant population standard deviation units**. 
+    - There are multiple observations per district; one for each 
+        - year
+        - grade 
+        - subject
+    - **district level means in constant population standard deviation units**
+        - Observation 
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E spring of tested year
+            - F grade
+            - G Estimated District Mean in ela: grade-subject std (cs)
+            - H Estimated District Mean SE in ela: grade-subject std (cs)
+            - I Estimated District Mean in math: grade-subject std (cs)
+            - J Estimated District Mean SE in math: grade-subject std (cs)
+            - K 
+            - L 
+- This file contains **district level means in constant population standard deviation units**. 
+    - There are multiple observations per district; one for each subject; values are averaged across 
+        - years 
+        - grades
+    - **district level means in constant population standard deviation units**
+        - Observation
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E Pooled District Mean in math: grade-subject std (cs)
+            - F grade slope in math: grade-subject std (cs)
+            - G cohort slope in math: grade-subject std (cs)
+            - H Pooled District Mean in ela: grade-subject std (cs)
+            - I grade slope in ela: grade-subject std (cs)
+            - J cohort slope in ela: grade-subject std (cs)
+            - K Pooled District Mean SE in math: grade-subject std (cs)
+            - L grade slope SE in math: grade-subject std (cs)
+            - M cohort slope SE in math: grade-subject std (cs)
+            - N Pooled District Mean SE in ela: grade-subject std (cs)
+            - O grade slope SE in ela: grade-subject std (cs)
+            - P cohort slope SE in ela: grade-subject std (cs)
+- This file contains **district level means in constant population standard deviation units**.
+    -  There is one observations per district; values are averaged across 
+        - years
+        - grades 
+        - subjects
+    - **district level means in constant population standard deviation units**
+        - Observation
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E average test score, math/ela pooled, in constant population SD units
+            - F grade slope pooled: grade-subject std (cs)
+            - G cohort slope pooled: grade-subject std (cs)
+            - H subject slope pooled: grade-subject std (cs)
+            - I se(mean_poolcs)
+            - J grade slope SE pooled: grade-subject std (cs)
+            - K cohort slope SE pooled: grade-subject std (cs)
+            - L subject slope SE pooled: grade-subject std (cs)
+- This file contains **district level means in NAEP-referenced units**. Estimates are comparable between states. 
+    - There are multiple observations per district; one for each 
+        - year
+        - grade 
+        - subject
+    - **district level means in NAEP-referenced units**
+        - Observation 
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E spring of tested year
+            - F grade
+            - G Estimated District Mean in ela: national-referenced
+            - H Estimated District Mean SE in ela: national-referenced
+            - I Estimated District Mean in math: national-referenced
+            - J Estimated District Mean SE in math: national-referenced
+            - K 
+            - L 
+- This file contains **district level means in state-referenced units**. Estimates are comparable within states. 
+    - There are multiple observations per district; one for each 
+        - year
+        - grade 
+        - subject
+    - **district level means in state-referenced units**
+        - Observation 
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E spring of tested year
+            - F grade
+            - G Estimated District Mean in ela: state-referenced
+            - H Estimated District Mean SE in ela: state-referenced
+            - I Estimated District Mean in math: state-referenced
+            - J Estimated District Mean SE in math: state-referenced
+            - K 
+            - L 
+- This file contains **district level white-black and white-Hispanic achievement gaps**. 
+    - There are multiple observations per district; one for each 
+        - year
+        - grade 
+        - subject
+    - **district level white-black and white-Hispanic achievement gaps**
+        - Observation 
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E spring of tested year
+            - F tested grade
+            - G white-black gap in ela
+            - H se of white-black gap in ela
+            - I white-hispanic gap in ela
+            - J se of white-hispanic gap in ela
+            - K white-black gap in math
+            - L se of white-black gap in math
+            - M white-hispanic gap in math
+            - N se of white-hispanic gap in math
+- This file contains **district level white-black and white-Hispanic achievement gaps**. 
+    - There are multiple observations per district; one for each subject; values are averaged across
+        - years 
+        - grades
+    - **district level white-black and white-Hispanic achievement gaps**
+        - Observation 
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E white-black gap in ela
+            - F se of white-black gap in ela
+            - G white-hispanic gap in ela
+            - H se of white-hispanic gap in ela
+            - I white-black gap in math
+            - J se of white-black gap in math
+            - K white-hispanic gap in math 
+            - L se of white-hispanic gap in math
+- This file contains **district level white-black and white-Hispanic achievement gaps**. 
+    - There is one observations per district; values are averaged across 
+        - years
+        - grades
+        - subjects
+    - **district level white-black and white-Hispanic achievement gaps**
+        - Observation 
+            - A nces district id
+            - B education agency name
+            - C fips state code
+            - D location state
+            - E white-black gap
+            - F se of white-black gap
+            - G white-hispanic gap
+            - H se of white-hispanic gap
+            - I 
+            - J
+            - K 
+            - L 
+- This file contains **district level covariates (socioeconomic, demographic, school level data)**. 
+    - There are multiple observations per district; one for each 
+        - year 
+        - grade
+    - **district level covariates (socioeconomic, demographic, school level data)**
+        - Observation 
+            - A leaid
+            - B leaname
+            - C year
+            - D grade
+            - E fips
+            - F stateabb
+            - G metroid
+            - H metromicro
+            - I czid
+            - J countyid
+            - K cdcode
+            - L urban
+            - M perind
+            - N perasn
+            - O perhsp
+            - P perblk
+            - Q perwht
+            - R perfrl
+            - S peronfrl
+            - T perell
+            - U perspeced
+            - V ind
+            - W asn
+            - X hsp
+            - Y blk
+            - Z wht
+            - AA frl
+            - AB nonfrl
+            - AC totenrl
+            - AD nsch
+            - AE ncharters
+            - AF gslo
+            - AG gshi
+            - AH speced
+            - AI ell
+            - AJ elmtch
+            - AK tottch
+            - AL aides
+            - AM corsup
+            - AN elmgui
+            - AO stutch_wht
+            - AP stutch_blk
+            - AQ stutch_hsp
+            - AR stutch_all
+            - AS diffstutch_blkwht
+            - AT diffstutch_hspwht
+            - AU ratstutch_whtblk
+            - AV ratstutch_whthsp
+            - AW flunch_wht
+            - AX flunch_blk
+            - AY flunch_hsp
+            - AZ flunch_all
+            - BA diffexplch_blkwht
+            - BB diffexplch_hspwht
+            - BC percharter_all
+            - BD percharter_wht
+            - BE percharter_blk
+            - BF percharter_hsp
+            - BG hswhtblk
+            - BH hswhthsp
+            - BI hsflnfl
+            - BJ ppexp_tot
+            - BK ppexp_inst
+            - BL pprev_tot
+            - BM totppe_fleslope
+            - BN instppe_fleslope
+            - BO baplus_wht
+            - BP poverty517_wht
+            - BQ snap_wht
+            - BR singmom_wht
+            - BS samehouse_wht
+            - BT unemp_wht
+            - BU baplus_hsp
+            - BV poverty517_hsp
+            - BW snap_hsp
+            - BX singmom_hsp
+            - BZ samehouse_hsp
+            
+            - CA unemp_hsp
+            - CB baplus_blk
+            - CC poverty517_blk
+            - CD snap_blk
+            - CE singmom_blk
+            - CF samehouse_blk
+            - CG unemp_blk
+            - CH baplus_all
+            - CI poverty517_all
+            - CJ singmom_all
+            - CK snap_all
+            - CL samehouse_all
+            - CM unemp_all
+            - CN pctenglish
+            - CO pctforeign
+            - CP pctmexico
+            - CQ pctpuerto
+            - CR pctcuba
+            - CS pctcentral
+            - CT pctsouth
+            - CU inc50all
+            - CV incrat9010all
+            - CW incrat9050all
+            - CX incrat5010all
+            - CZ inc50blk
+
+            - DA incrat9010blk
+            - DB incrat9050blk
+            - DC incrat5010blk
+            - DD inc50hsp
+            - DE incrat9010hsp
+            - DF incrat9050hsp
+            - DG incrat5010hsp
+            - DH inc50wht
+            - DI incrat9010wht
+            - DJ incrat9050wht
+            - DK incrat5010wht
+            - DL giniall
+            - DM giniwht
+            - DN giniblk
+            - DO ginihsp
+            - DP paredVblkwht
+            - DQ paredVhspwht
+            - DR incVblkwht
+            - DS incVhspwht
+            - DT
+            - DU
+            - DV
+            - DW
+            - DX
+            - DZ
+
+            - baplus_mal
+            - baplus_fem
+            - pov_mal
+            - pov_fem
+            - occbus_mal
+            - occbus_fem
+            - occsci_mal
+            - occsci_fem
+            - occeduc_mal
+            - occeduc_fem
+            - occeduc_fem
+            - occhealth_mal
+            - occhealth_fem
+            - occserv_mal
+            - occserv_fem
+            - occsales_mal
+            - occsales_fem
+            - occtrade_mal
+            - occtrade_fem
+            - inlf_mal
+            - inlf_fem
+            - unemp_mal
+            - unemp_fem
+            - incVmalfem
+            - educVmalfem
+            - teenbirth_all
+            - sesall
+            - seswht
+            - sesblk
+            - seshsp
+            - sesallimp1
+            - sesallimp2
+            - seswhtimp1
+            - seswhtimp2
+            -  sesblkimp1
+            - sesblkimp2
+            - seshspimp1
+            - seshspimp2
+
+
+             
+
+
+
+- This file contains **district level covariates (socioeconomic, demographic, school level data)**. 
+    - There are multiple observations per district; 
+        - **one for each year**
+    - **district level covariates (socioeconomic, demographic, school level data)**
+        - Observation 
+            - A year
+            - B wht
+            - C urban
+            - D unemp_wht
+            - E unemp_mal
+            - F unemp_hsp
+            - G unemp_fem
+            - H unemp_blk
+            - I unemp_all
+            - J tottch
+            - K totppe_fleslope
+            - L totenrl
+            - teenbirth_all
+            - stutch_wht
+            - stutch_hsp
+            - stutch_blk
+            - stutch_all
+            - stateabb
+            - speced
+            - snap_wht
+            - snap_hsp
+            - snap_blk
+            - snap_all
+            - singmom_wht
+            - singmom_hsp
+            - singmom_blk
+            - singmom_all
+            - seswhtimp2
+            - seswhtimp1
+            - seswht
+            - seshspimp2
+            - seshspimp1
+            - seshsp
+            - sesblkimp2
+            - sesblkimp1
+            - sesblk
+            - sesallimp2
+            - sesallimp1
+            - sesall
+            - samehouse_wht
+            - samehouse_hsp
+            - samehouse_blk
+            - samehouse_all
+            - ratstutch_whthsp
+            - ratstutch_whtblk
+            - pprev_tot
+            - ppexp_tot
+            - ppexp_inst
+            - poverty517_wht
+            - poverty517_hsp
+            - poverty517_blk
+            - poverty517_all
+            - pov_mal
+            - pov_fem
+            - perwht
+            - perspeced
+            - pernonfrl
+            - perind
+            - perhsp
+            - perfrl
+            - perell
+            - percharter_wht
+            - percharter_hsp
+            - percharter_blk
+            - percharter_all
+            - perblk
+            - perasn
+            - pctsouth
+            - pctpuerto
+            - pctmexico
+            - pctforeign
+            - pctenglish
+            - pctcuba
+            - pctcentral
+            - paredVhspwht
+            - paredVblkwht
+            - occtrade_mal
+            - occtrade_fem
+            - occserv_mal
+            - occserv_fem
+            - occsci_mal
+            - occsci_fem
+            - occsales_mal
+            - occsales_fem
+            - occhealth_mal
+            - occhealth_fem
+            - occeduc_mal
+            - occeduc_fem
+            - occbus_mal
+            - occbus_fem
+            - nsch
+            - nonfrl
+            - ncharters
+            - metromicro
+            - metroid
+            - leaname
+            - leaid
+            - instppe_fleslope
+            - inlf_mal
+            - inlf_fem
+            - ind
+            - incrat9050wht
+            - incrat9050hsp
+            - incrat9050blk
+            - incrat9050all
+            - incrat9010wht
+            - incrat9010hsp
+            - incrat9010blk
+            - incrat9010all
+            - incrat5010wht
+            - incrat5010hsp
+            - incrat5010blk
+            - incrat5010all
+            - incVmalfem
+            - incVhspwht
+            - incVblkwht
+            - inc50wht
+            - inc50hsp
+            - inc50blk
+            - inc50all
+            - hswhthsp
+            - hswhtblk
+            - hsp
+            - hsflnfl
+            - gslo
+            - gshi
+            - giniwht
+            - ginihsp
+            - giniblk
+            - giniall
+            - frl
+            - flunch_wht
+            - flunch_hsp
+            - flunch_blk
+            - flunch_all
+            - fips
+            - elmtch
+            - elmgui
+            - ell
+            - educVmalfem
+            - diffstutch_hspwht
+            - diffstutch_blkwht
+            - diffexplch_hspwht
+            - diffexplch_blkwht
+            - czid
+            - countyid
+            - corsup
+            - cdcode
+            - blk
+            - baplus_wht
+            - baplus_mal
+            - baplus_hsp
+            - baplus_fem
+            - baplus_blk
+            - baplus_all
+            - avgrdwht
+            - avgrdhsp
+            - avgrdblk
+            - avgrdall
+            - asn
+            - aides
+
+
+
+
+
+- This file contains **district level covariates (socioeconomic, demographic, school level data)**. 
+    - There is 
+        - **one observation per district**
+    - **district level covariates (socioeconomic, demographic, school level data)**
+        - Observation 
+            - A leaid
+            - B LEA Name
+            - C Fips State Code
+            - D State Abbreviation
+            - E Metropolitan Area Code (2009 Definition)
+            - F Status, 1=metro 2=micro
+            - G Commuting Zone ID, 2000 Definition
+            - H county code
+            - I Congressional District Code
+            - J city/urban locale
+            - K Average Per Grade Enrollment (all)
+            - L Average Per Grade Enrollment (wht)
+            - Average Per Grade Enrollment (blk)
+            - Average Per Grade Enrollment (hsp)
+            - percent native americans in the district
+            - percent asians in the district
+            - percent hispanics in the district
+            - percent blacks in the district
+            - percent whites in the district
+            - percent free lunch in the district
+            - percent not free lunch in the district
+            - % of all Students in District that are ELL
+            - % of all Students in District that are Special Ed
+            - N native americans in the district
+            - N asians in the district
+            - N hispanics in the district
+            - N blacks in the district
+            - N whites in the district
+            - N free lunch in the district
+            - N not free lunch in the district
+            - Total Enrollment, Grades 3-8
+            - Number of Schools in the District
+            - Number of Charter Schools in the District
+            - Number of Special Ed (IEP) Students in District
+            - Number of Eng Language Learners in District
+            - Number of Elementary Teachers
+            - Total Number of Teachers
+            - Number of Instructional Aides
+            - Number of instructional coordinators and supervisors
+            - Number of Elementary Guidance Counselors
+            - pupil teacher ratio-- average white student's school
+            - pupil teacher ratio-- average black student's school
+            - pupil teacher ratio-- average hispanic student's school
+            - pupil-teacher ratio-- average all student's school
+            - stutch_blk-stutch_wht
+            - stutch_hsp-stutch_wht
+            - stutch_wht/stutch_blk
+            - stutch_wht/stutch_hsp
+            - percent free lunch in average student's school
+            - percent free lunch in average white student's school
+            - percent free lunch in average black student's school
+            - percent free lunch in average hisp student's school
+            - flunch_blk-flunch_wht
+            - flunch_hsp-flunch_wht
+            - Information index between schools: White/Black
+            - Information index between schools: White/Hispanic
+            - Information index between schools: FRPL/Non FRPL
+            - Total PP Expenditures- Tot Exp/Enrl
+            - Current PP Expenditures, Instruction- Inst Exp/Enrl
+            - Revenue Per Pupil- Total Revenue/Tot Enrl
+            - Percentage of Public School Students in Charters (all)
+            - Percentage of Public School Students in Charters (wht)
+            - Percentage of Public School Students in Charters (blk)
+            - Percentage of Public School Students in Charters (hsp)
+            - State Slope- Total PPE = % FLE
+            - State Slope- Instructional PPE = % FLE
+            - Lowest Grade Offered in District
+            - Highest Grade Offered in District
+            - % of adults with ba+ (wht)
+            - % of hh with 5-17 yr olds in poverty (wht)
+            - % of hh receiving snap benefits (wht)
+            - % hh with children, female head (wht)
+            - % living in same house as last year (wht)
+            - % unemployed (wht)
+            - % of adults with ba+ (hsp)
+            - % of hh with 5-17 yr olds in poverty (hsp)
+            - % of hh receiving snap benefits (hsp)
+            - % hh with children, female head (hsp)
+            - % living in same house as last year (hsp)
+            - % unemployed (hsp)
+            - % of adults with ba+ (blk)
+            - % of hh with 5-17 yr olds in poverty (blk)
+            - % of hh receiving snap benefits (blk)
+            - % hh with children, female head (blk)
+            - % living in same house as last year (blk)
+            - % unemployed (blk)
+            - % of adults with ba+ (all)
+            - % of hh with 5-17 yr olds in poverty (all)
+            - % hh with children, female head (all)
+            - % of hh receiving snap benefits (all)
+            - % living in same house as last year (all)
+            - % unemployed (all)
+            - % hispanics- speak english well
+            - % hispanics- foreign born
+            - % hispanics- mexican
+            - % hispanics- puerto rican
+            - % hispanics- cuban
+            - % hispanics- central american
+            - % hispanics- south american
+            - income at 50th percentile (all)
+            - 90/10 income ratio (all)
+            - 90/50 income ratio (all)
+            - 50/10 income ratio (all)
+            - income at 50th percentile (blk)
+            - 90/10 income ratio (blk)
+            - 90/50 income ratio (blk)
+            - 50/10 income ratio (blk)
+            - income at 50th percentile (hsp)
+            - 90/10 income ratio (hsp)
+            - 90/50 income ratio (hsp)
+            - 50/10 income ratio (hsp)
+            - income at 50th percentile (wht)
+            - 90/10 income ratio (wht)
+            - 90/50 income ratio (wht)
+            - 50/10 income ratio (wht)
+            - Gini Coefficient (all)
+            - Gini Coefficient (wht)
+            - Gini Coefficient (blk)
+            - Gini Coefficient (hsp)
+            - vgap for parent education, white-blk
+            - vgap for parent education, white-hsp
+            - vgap for income, white-blk
+            - vgap for income, white-hsp
+            - Percent of Males with BA or Higher
+            - Percent of Female with BA or Higher
+            - Percent of Males in Poverty
+            - Percent of Female in Poverty
+            - Percent of Males in Management, Business and Financial Occs
+            - Percent of Females in in Management, Business and Financial Occs
+            - Percent of Males in Computer, Engineering and Science Occs
+            - Percent of Females in Computer, Engineering and Science Occs
+            - Percent of Males in Education, Legal, Com Serv, Arts, Media Occs
+            - Percent of Females  in Education, Legal, Com Serv, Arts, Media Occs
+            - Percent of Males in Health Practitioners and Technical Occs
+            - Percent of Females in Health Practitioners and Technical Occs
+            - Percent of Males in Service Occs
+            - Percent of Females in Service Occs
+            - Percent of Males in Sales Occs
+            - Percent of Females in Sales Occs
+            - Percent of Males in Natural Resources, Construction, Maintenance
+            - Percent of Females in Natural Resources, Construction, Maintenance
+            - Percent of 25-64 Year Old Males in Labor Force
+            - Percent of 25-64 Year Old Females in Labor Force
+            - Percent of 25-64 Year Old Males in LF & Unemployed
+            - Percent of 25-64 Year Old Females in LF & Unemployed
+            - vgap for income, male-female
+            - vgap for education, male-female
+            - percent of 15-19 year olds giving birth
+            - standardized ses composite (all)
+            - standardized ses composite (wht)
+            - standardized ses composite (blk)
+            - standardized ses composite (hsp)
+            - sesall imputed flag, 5 variables
+            sesall imputed flag, 3 variables
+            - seswht imputed flag, 5 variables
+            - seswht imputed flag, 3 variables
+            - sesblk imputed flag, 5 variables
+            - sesblk imputed flag, 3 variables
+            - seshsp imputed flag, 5 variables
+            - seshsp imputed flag, 3 variables
+             
+
+- This file contains a **unique school identifier, an identifier indicating its NCES ID (the district to which it legally belongs), and the district in which it is included in our estimates**. 
+    - There is 
+        - **one observation per school**
+    - **unique school identifier, an identifier indicating its NCES ID (the district to which it legally belongs), and the district in which it is included in our estimates**
+        - Observation 
+            - A leaid
+            - B LEA Name
+            - C Fips State Code
+            - D State Abbreviation
+            - E Metropolitan Area Code (2009 Definition)
+            - F Status, 1=metro 2=micro
+            - G Commuting Zone ID, 2000 Definition
+            - H county code
+            - I Congressional District Code
+            - J city/urban locale
+            - K Average Per Grade Enrollment (all)
+            - L Average Per Grade Enrollment (wht)
+            - M Average Per Grade Enrollment (blk)
+            - N Average Per Grade Enrollment (hsp)
+            - O percent native americans in the district
+            - P percent asians in the district
+            - Q percent hispanics in the district
+            - R percent blacks in the district
+            - S percent whites in the district
+            - T percent free lunch in the district
+            - U percent not free lunch in the district
+            - V % of all Students in District that are ELL
+            - W % of all Students in District that are Special Ed
+            - X N native americans in the district
+            - Y N asians in the district
+            - Z N hispanics in the district
+            - AA N blacks in the district
+            - AB N whites in the district
+            - AC N free lunch in the district
+            - AD N not free lunch in the district
+            - AE Total Enrollment, Grades 3-8
+            - AF Number of Schools in the District
+            - AG Number of Charter Schools in the District
+            - AH Number of Special Ed (IEP) Students in District
+            - AI Number of Eng Language Learners in District
+            - AJ Number of Elementary Teachers
+            - AK Total Number of Teachers
+            - AL Number of Instructional Aides
+            - AM Number of instructional coordinators and supervisors
+            - AN Number of Elementary Guidance Counselors
+            - AO pupil teacher ratio-- average white student's school
+            - AP pupil teacher ratio-- average black student's school
+            - AQ pupil teacher ratio-- average hispanic student's school
+            - AR pupil-teacher ratio-- average all student's school
+            - AS stutch_blk-stutch_wht
+            - AT stutch_hsp-stutch_wht
+            - AU stutch_wht/stutch_blk
+            - AV stutch_wht/stutch_hsp
+            - AW percent free lunch in average student's school
+            - AY percent free lunch in average black student's school
+            - AZ percent free lunch in average hisp student's school
+            - BA flunch_blk-flunch_wht
+            - BB flunch_hsp-flunch_wht
+            - BC Information index between schools: White/Black
+            - BD Information index between schools: White/Hispanic
+            - BE Information index between schools: FRPL/Non FRPL
+            - BF Total PP Expenditures- Tot Exp/Enrl
+            - BG Current PP Expenditures, Instruction- Inst Exp/Enrl
+            - BH Revenue Per Pupil- Total Revenue/Tot Enrl
+            - BI Percentage of Public School Students in Charters (all)
+            - BJ Percentage of Public School Students in Charters (wht)
+            - BK Percentage of Public School Students in Charters (blk)
+            - BL Percentage of Public School Students in Charters (hsp)
+            - BM State Slope- Total PPE = % FLE
+            - BN State Slope- Instructional PPE = % FLE
+            - BO Lowest Grade Offered in District
+            - BP Highest Grade Offered in District
+            - BQ % of adults with ba+ (wht)
+            - BR % of hh with 5-17 yr olds in poverty (wht)
+            - BS % of hh receiving snap benefits (wht)
+            - BT % hh with children, female head (wht)
+            - BU % living in same house as last year (wht)
+            - BV % unemployed (wht)
+            - BW % of adults with ba+ (hsp)
+            - BX % of hh with 5-17 yr olds in poverty (hsp)
+            - BY % of hh receiving snap benefits (hsp)
+            - BZ % hh with children, female head (hsp)
+            - CA % living in same house as last year (hsp)
+            - CB % unemployed (hsp)
+            - CC % of adults with ba+ (blk)
+            - CD % of hh with 5-17 yr olds in poverty (blk)
+            - CE % of hh receiving snap benefits (blk)
+            - CF % hh with children, female head (blk)
+            - CG % living in same house as last year (blk)
+            - CH % unemployed (blk)
+            - CI % of adults with ba+ (all)
+            - CJ % of hh with 5-17 yr olds in poverty (all)
+            - CK % hh with children, female head (all)
+            - CL % of hh receiving snap benefits (all)
+            - CM % living in same house as last year (all)
+            - CN % unemployed (all)
+            - CO % hispanics- speak english well
+            - CP % hispanics- foreign born
+            - CQ % hispanics- mexican
+            - CR % hispanics- puerto rican
+            - CS % hispanics- cuban
+            - CT % hispanics- central american
+            - CU % hispanics- south american
+            - CV income at 50th percentile (all)
+            - CW 90/10 income ratio (all)
+            - CX 90/50 income ratio (all)
+            - CY 50/10 income ratio (all)
+            - CZ income at 50th percentile (blk)
+            - DA 90/10 income ratio (blk)
+            - DB 90/50 income ratio (blk)
+            - DC 50/10 income ratio (blk)
+            - DD income at 50th percentile (hsp)
+            - DE 90/10 income ratio (hsp)
+            - DF 90/50 income ratio (hsp)
+            - DG 50/10 income ratio (hsp)
+            - DH income at 50th percentile (wht)
+            - DI 90/10 income ratio (wht)
+            - DJ 90/50 income ratio (wht)
+            - DK 50/10 income ratio (wht)
+            - DL Gini Coefficient (all)
+            - DM Gini Coefficient (wht)
+            - DN Gini Coefficient (blk)
+            - DO Gini Coefficient (hsp)
+            - DP vgap for parent education, white-blk
+            - DQ vgap for parent education, white-hsp
+            - DR vgap for income, white-blk
+            - DS vgap for income, white-hsp
+            - DT Percent of Males with BA or Higher
+            - DU Percent of Female with BA or Higher
+            - DV Percent of Males in Poverty
+            - DW Percent of Female in Poverty
+            - DX Percent of Males in Management, Business and Financial Occs
+            - DY Percent of Females in in Management, Business and Financial Occs
+            - DZ Percent of Males in Computer, Engineering and Science Occs
+            - EA Percent of Females in Computer, Engineering and Science Occs
+            - EB Percent of Males in Education, Legal, Com Serv, Arts, Media Occs
+            - EC Percent of Females  in Education, Legal, Com Serv, Arts, Media Occs
+            - ED Percent of Males in Health Practitioners and Technical Occs
+            - EE Percent of Males in Service Occs
+            - EF Percent of Males in Service Occs
+            - EG Percent of Females in Service Occs
+            - EH Percent of Males in Sales Occs
+            - EI Percent of Females in Sales Occs
+            - EJ Percent of Males in Natural Resources, Construction, Maintenance
+            - EK Percent of Females in Natural Resources, Construction, Maintenance
+            - EL Percent of 25-64 Year Old Males in Labor Force
+            - EM Percent of 25-64 Year Old Females in Labor Force
+            - EN Percent of 25-64 Year Old Males in LF & Unemployed
+            - EO Percent of 25-64 Year Old Females in LF & Unemployed
+            - EP vgap for income, male-female
+            - EQ percent of 15-19 year olds giving birth
+            - ER percent of 15-19 year olds giving birth
+            - ES standardized ses composite (all)
+            - ET standardized ses composite (wht)
+            - EU standardized ses composite (blk)
+            - EV standardized ses composite (hsp)
+            - EW sesall imputed flag, 5 variables
+            - EX sesall imputed flag, 3 variables
+            - EZ seswht imputed flag, 3 variables
+            - FA sesblk imputed flag, 5 variables
+            - FB sesblk imputed flag, 3 variables
+            - FC seshsp imputed flag, 5 variables
+            - FD seshsp imputed flag, 3 variables
+
+
+
+
+
+
+            - BA
+            - BB
+            - BC
+            - BD
+            - BE
+            - BF
+            - BG
+            - BH
+            - BI
+            - BJ
+            - BK
+            - BL
+            - BM
+            - BN
+            - BO
+            - BP
+            - BQ 
+            - BR
+            - BS
+            - BT
+            - BU
+            - BV
+            - BW
+            - BX
+            - BZ
