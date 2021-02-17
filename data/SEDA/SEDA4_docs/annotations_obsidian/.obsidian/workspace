@@ -6,25 +6,29 @@
       {
         "id": "a8bed2c6e76228a2",
         "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "ii_achievement_data_construction.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "060682a87bd3aee8",
-        "type": "leaf",
+        "dimension": 42.93193717277487,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "iici_basic_construction_overview.md",
+            "file": "iicii_detailed_construction_overview.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "fb3657770c04ae6c"
+      },
+      {
+        "id": "060682a87bd3aee8",
+        "type": "leaf",
+        "dimension": 57.06806282722513,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "iicii_detailed_construction_overview.md",
+            "mode": "preview"
+          }
+        },
+        "group": "fb3657770c04ae6c"
       }
     ],
     "direction": "vertical"
@@ -64,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 530
+    "width": 301,
+    "collapsed": true
   },
   "right": {
     "id": "358ba52bb6553589",
@@ -80,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iici_basic_construction_overview.md",
+                "file": "iicii_detailed_construction_overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +102,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "iici_basic_construction_overview.md",
+    "iicii_detailed_construction_overview.md",
     "iib_definitions.md",
-    "iia_source_data.md",
+    "IIb_definitions.md",
+    "IIB_Definitions.md",
+    "iici_basic_construction_overview.md",
     "ii_achievement_data_construction.md",
+    "iia_source_data.md",
     "i_what_is_seda.md",
     "ic_data_use_agreement.md",
-    "ib_covariate_data.md",
-    "ia_overview_of_test_score_data_files.md",
-    "mathematics_test_scores.md",
-    "_start_here.md"
+    "ib_covariate_data.md"
   ]
 }
