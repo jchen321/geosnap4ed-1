@@ -1,9 +1,4 @@
 *.ipynb_checkpoints
-.gitignore
 references.bib
-data/edge_locale19_nces*
-data/SEDA_files
-data/nces_att_bound/
-SEDA/SEDA4_docs/seda*
-SEDA/SEDA3_files 
-meeting-notes.md
+*.pdf
+*obsidian/workspace
