@@ -1,4 +1,4 @@
-# 1A Overview of the Test Score Data Files 
+# Overview of the Test Score Data Files 
 
 ## SEDA 4.0 contains test score data files for:
   - schools

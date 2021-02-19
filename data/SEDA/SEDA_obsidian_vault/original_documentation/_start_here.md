@@ -1,5 +1,5 @@
 # Stanford Education Data Archive Technical Documentation Version 4.0
-This Obsidian directory contains scraped information from the SEDA [technical documentation](https://edopportunity.org/get-the-data/seda-archive-downloads/)
+This Obsidian directory contains scraped information from the SEDA [technical documentation](https://edopportunity.org/get-the-data/seda-archive-downloads/). Formatting, indexining may not be original. This is intended to be an at-a-glance, easily navigable version of SEDA documentation the and can be updated as new versions are released.
 
 [Suggested Citation](_suggested_citation.md)
 

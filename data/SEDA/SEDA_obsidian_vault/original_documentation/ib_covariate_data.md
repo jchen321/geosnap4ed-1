@@ -1,4 +1,4 @@
-# 1B Covariate Data
+# Covariate Data
 ## Extent
 SEDA 4.0 also provides estimates of [Socioeconomic Estimates](socioeconomic_estimates.md), [Demographic Estimates](demographic_estimates.md), and [Segregation Estimates](segregation_estimates.md) characteristics of schools, districts, counties, metropolitan areas, and states. 
 
