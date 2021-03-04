@@ -2,3 +2,6 @@
 references.bib
 *.pdf
 *obsidian/workspace
+data/ccd_enrollment_1819.csv
+data/nces_att_bound/
+data/edge_geocode/
