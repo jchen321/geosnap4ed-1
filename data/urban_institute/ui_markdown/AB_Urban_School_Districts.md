@@ -1,0 +1,52 @@
+# Urban Institute: Topic : School District Data Source
+
+## School District Data Source
+- CCD
+    - Directory
+        - endpoint contains
+            - information on school districts(local education agency identification)-level geographic and mailing information
+                - agency type 
+                - highest and lowest grades offered
+                - special education students 
+                - English language learners
+                - full-time equivalent teachers
+                - other staff 
+    - Enrollment - By grade 
+        - endpoint contains
+            - student membership data for each school district by grade  
+    - Finance
+        - endpoint contains
+            - district level finance data including revenues from 
+                - federal
+                - state
+                - local governments
+                - expenditures 
+- SAIPE
+    - Poverty Estimates
+        - endpoint contains
+            - district level data on the size of the 
+                - population
+                - school age population
+                - school age population that is in poverty 
+- EDFacts 
+    - State Assessment 
+        - endpoint contains
+            - school-level achievement results for state assessments in
+                - mathematics
+                - reading
+                - language arts
+                    - by grade 
+            - includes the number of students
+                - who completed each assessment for whom a proficiency level was assigned
+                - the proficiency share 
+        - proficiency share is reported as a range
+            - unless there are more than 300 students in the subgroup
+                - with the magnitude of the range decreasing as the number of students reported increases
+        - states can change their 
+            - statewide assessments
+            - academic standards
+            - thresholds 
+                - for proficiency levels, leading to changes in the proficiency share from year to year 
+        - example
+            - Virginia's 2016-17 grade 5-8 math assessment are too low
+                - Users should instead refer to Virginia Department of Education's Statistics and Reports 

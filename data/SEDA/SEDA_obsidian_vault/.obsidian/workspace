@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "abc867e91dda9bfb",
+    "type": "split",
+    "children": [
+      {
+        "id": "6994d2a79531cbed",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "original_documentation/_start_here.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "764fec0a47cff42d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "original_documentation/iiib_ccd_imputation.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "70dc45ed82cba46b",
+    "type": "split",
+    "children": [
+      {
+        "id": "94c4352766d47b51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb19b6714757009f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c76a33e7a2912957",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 470
+  },
+  "right": {
+    "id": "358ba52bb6553589",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a1398a90cd54969",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "187a3ff55c1e0cf3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "original_documentation/_start_here.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "original_documentation/_start_here.md",
+    "original_documentation/iiia_acs_data_ses_composite_construction.md",
+    "original_documentation/iii_covariate_data_construction.md",
+    "original_documentation/iiib_ccd_imputation.md",
+    "original_documentation/ii_achievement_data_construction.md",
+    "original_documentation/iib_definitions.md",
+    "original_documentation/_suggested_citation.md",
+    "original_documentation/iici_basic_construction_overview.md",
+    "original_documentation/ic_data_use_agreement.md",
+    "original_documentation/iicii_detailed_construction_overview.md"
+  ]
+}
