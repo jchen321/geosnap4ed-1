@@ -52,7 +52,7 @@ Units of measurement
 
 
 
-NHGIS data 
+## NHGIS data 
 
 **Block Unit**
 Census 2010 
@@ -179,3 +179,91 @@ Census 2010
 1980 Census 
 	- Race by Age 
 		- Tract, Block Group (Urban and Rural breakdowns only), Block (MCD states, non-MCD states)
+
+
+
+### Race Definitions
+[Link](https://www.census.gov/programs-surveys/cps/data/data-tools/cps-table-creator-help/race-definitions.html)
+
+**White Alone** – White Alone refers to people who reported White and did not report any other race category.
+
+**White Alone or in combination** - White alone or in combination consists of those respondents who reported White, whether or not they reported any other races. In other words, people who reported only White or who reported combinations such as "White and Black or African American," or "White and Asian and American Indian and Alaska Native" are included in the White alone or in combination category.
+
+**Black Alone** – Black alone refers to people who reported Black or African American and did not report any other race.
+
+**Black Alone or in combination** - Black alone or in combination consists of those respondents who reported Black, whether or not they reported any other races. In other words, people who reported only Black or who reported combinations such as "Black and White," or "Black and Asian and American Indian and Alaska Native" are included in the Black alone or in combination category.
+
+**AIAN Alone** – AIAN alone refers to people who reported American Indian and Alaska Native and did not report any other race.
+
+**AIAN Alone or in combination** - AIAN alone or in combination consists of those respondents who reported American Indian and/or Alaska Native, whether or not they reported any other races. In other words, people who reported only AIAN or who reported combinations such as "AIAN and White," or "AIAN and Black and Asian" are included in the AIAN alone or in combination category.
+
+**Asian Alone** – Asian alone refers to people who reported Asian and did not report any other race.
+
+**Asian Alone or in combination** - Asian alone or in combination consists of those respondents who reported Asian, whether or not they reported any other races. In other words, people who reported only Asian or who reported combinations such as "Asian and White," or "Asian and Black and NHOPI" are included in the Asian alone or in combination category.
+
+**NHOPI Alone** – NHOPI alone refers to people who reported Native Hawaiian or Other Pacific Islander and did not report any other race.
+
+**NHOPI Alone or in combination** - NHOPI alone or in combination consists of those respondents who reported Native Hawaiian or Other Pacific Islander, whether or not they reported any other races. In other words, people who reported only NHOPI or who reported combinations such as "NHOPI and White," or "NHOPI and Black and Asian" are included in the NHOPI alone or in combination category.
+
+**Asian/NHOPI Alone** – Asian/NHOPI alone refers to people who reported Asian or Native Hawaiian or Other Pacific Islander and did not report any other race.
+
+**Asian/NHOPI Alone or in combination** – Asian/NHOPI alone or in combination consists of those respondents who reported Asian or Native Hawaiian or Other Pacific Islander, whether or not they reported any other races. In other words, people who reported only Asian or NHOPI or who reported combinations such as "NHOPI and White," or "NHOPI and Black and Asian" are included in the Asian/NHOPI alone or in combination category.
+
+**Two or More Races** – This category represents all those respondents who reported more than one race.
+
+
+## Census Bureau 
+[Link](https://www.census.gov/newsroom/press-kits/2020/population-estimates-detailed.html)
+
+2019 Population Estimates by Age, Sex, Race and Hispanic Origin 
+
+### National Detailed Tables [Excel]
+---
+
+Table ID
+NC-EST2019-ASR5H
+
+Title
+[Annual Estimates of the Resident Population by Sex, Age, Race Alone or in Combination, and Hispanic Origin for the United States: April 1, 2010 to July 1, 2019](https://www2.census.gov/programs-surveys/popest/tables/2010-2019/national/asrh/nc-est2019-asr5h.xlsx)
+
+Notes
+
+---
+Table ID
+NC-EST2019-ASR6H
+
+Title 
+[Annual Estimates of the Resident Population by Sex, Age, Race, and Hispanic Origin for the United States: April 1, 2010 to July 1, 2019](https://www2.census.gov/programs-surveys/popest/tables/2010-2019/national/asrh/nc-est2019-asr6h.xlsx)
+
+---
+Table ID 
+NC-EST2019-COMPN
+
+Title 
+[Estimates of the Components of Resident Population Change by Race and Hispanic Origin for the United States: April 1, 2010 to July 1, 2019](https://www2.census.gov/programs-surveys/popest/tables/2010-2019/national/asrh/nc-est2019-compn.xlsx)
+
+---
+Table ID
+NC-ESTR2019-SR11H
+
+[Annual Estimates of the Resident Population by Sex, Race, and Hispanic Origin for the United States: April 1, 2010 to July 1, 2019](https://www2.census.gov/programs-surveys/popest/tables/2010-2019/national/asrh/nc-est2019-sr11h.xlsx)
+
+### State Detailed Tables [Excel]
+
+Table ID
+SC-EST2019-ASR5H-\[[State FIPS Code](https://www2.census.gov/programs-surveys/popest/geographies/2019/state-geocodes-v2019.xlsx)\]
+
+Title 
+[Annual Estimates of the Resident Population by Sex, Age, Race Alone or in Combination, and Hispanic Origin \[for State\]: April 1, 2010 to July 1, 2019](https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-detail.html)
+--- 
+Table ID
+SC-EST2019-ASR6H-\[[State FIPS Code](https://www2.census.gov/programs-surveys/popest/geographies/2019/state-geocodes-v2019.xlsx)\]
+
+Title
+[Annual Estimates of the Resident Population by Sex, Age, Race, and Hispanic Origin \[for State\]: April 1, 2010 to July 1, 2019](https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-detail.html)
+---
+Table ID
+SC-EST2019-SR11H-\[[State FIPS Code](https://www2.census.gov/programs-surveys/popest/geographies/2019/state-geocodes-v2019.xlsx)\]
+
+Title
+[Annual Estimates of the Resident Population by Sex, Race, and Hispanic Origin \[for State\]: April 1, 2010 to July 1, 2019](https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-detail.html)
