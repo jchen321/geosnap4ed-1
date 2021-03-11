@@ -3,7 +3,6 @@ references.bib
 *.pdf
 *obsidian/workspace
 data/ccd_enrollment_1819.csv
-data/nces_att_bound/
 data/edge_geocode/
 data/nhgis/nhgis0020_ds172_2010_tract.csv
 data/nhgis/nhgis0022_ds172_2010_blck_grp.csv
